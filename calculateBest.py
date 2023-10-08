@@ -3,13 +3,15 @@
 def calculateBest(target_float):
     csv_filename = 'output.csv'
     items = []
-    with open(csv_filename) as f:
+    with open(csv_filename, encoding="utf8") as f:
         lines = f.readlines()
         for line in lines:
             curline = line.strip().split(',')
             newline = list((float(curline[1]), float(curline[2]), 0))
             items.append(newline)
-    print(items)
+
+    for i in range(len(items)):
+        items[i][2] = (items[i][1] * items[i][0])
 
     target_val = target_float
 
@@ -17,8 +19,9 @@ def calculateBest(target_float):
     # less than target_val
 
     # Step 1: Sort the list based on x values
-    items.sort(key=lambda x: x[0])
-
+    items.sort(key=lambda x: x[2])
+    items.reverse()
+    print(items)
     # Step 2: Take a window of size 10 and find the sum of x values and corresponding y values
     window_x_sum = 0
     window_y_sum = 0
@@ -53,4 +56,4 @@ def calculateBest(target_float):
                 break
 
 
-calculateBest(0.0905)
+calculateBest(0.1166)

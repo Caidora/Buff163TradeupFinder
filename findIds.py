@@ -2,7 +2,7 @@ def findIds(toFind):
 
     csv_filename = 'buffids.txt'
     ids = []
-    with open(csv_filename) as f:
+    with open(csv_filename, encoding="utf8") as f:
         lines = f.readlines()
         for line in lines:
             print(line)

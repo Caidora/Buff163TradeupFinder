@@ -109,7 +109,6 @@ def obtainItems(id, driver, writer):
         print(quantity)
     quantity = int(quantity)
     pages = quantity // 10
-    pages = pages-1
     lastPageitems = quantity-(pages*10)
     print("pages", pages)
     print("quantity", quantity)
@@ -117,6 +116,7 @@ def obtainItems(id, driver, writer):
 
     for j in range(pages):
         getPagesItems(driver, request, j, writer, 10)
+    getPagesItems(driver, request, pages, writer, lastPageitems)
 
     driver.quit
 
@@ -126,7 +126,7 @@ def scrape(weapon, desiredFloat):
     findIds(weapon)
     with open("currentids.txt", "r") as f:
         lines = f.readlines()
-        f = open('output.csv', 'w')
+        f = open('output.csv', 'w', newline='')
         writer = csv.writer(f)
         for id in lines:
             options = webdriver.ChromeOptions()
@@ -137,13 +137,16 @@ def scrape(weapon, desiredFloat):
     calculateBest(desiredFloat)
 
 
-if len(sys.argv) != 4:
+if len(sys.argv) != 3:
     print('Please enter the correct number of arguments')
     pass
 else:
-    scrape(int(sys.argv[1]), int(sys.argv[2]), float(sys.argv[3]))
+    toFind = str(sys.argv[1])
+    toFind = str(sys.argv[1])
+    print(toFind)
+    scrape(str(sys.argv[1]), float(sys.argv[2]))
 
 # Note: if you want an example of a function run, uncomment this:
-scrape("Dual Berettas | Flora Carnivora", 0.0905)
+# scrape("Dual Berettas | Flora Carnivora", 0.0905)
 
 # add readme.md
