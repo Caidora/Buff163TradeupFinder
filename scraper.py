@@ -14,6 +14,8 @@ import threading
 import pickle
 import sys
 import csv
+from findIds import findIds
+from calculateBest import calculateBest
 
 # The notifier function
 
@@ -53,7 +55,9 @@ def getPagesItems(driver, request, j, writer, items):
                         offset = offset+1
                     continue
                 except NoSuchElementException:
-                    time.sleep(0.2)
+
+                    driver.get(curRequest)
+                    time.sleep(1)
                     continue
 
             weartext = float(
@@ -97,9 +101,12 @@ def obtainItems(id, driver, writer):
             continue
 
     x = re.search("\((\d+)\)", number)
-    amount = x.group()
-    quantity = amount.replace('(', '').replace(')', '')
-    print(quantity)
+    if x == None:
+        quantity = 1000
+    else:
+        amount = x.group()
+        quantity = amount.replace('(', '').replace(')', '')
+        print(quantity)
     quantity = int(quantity)
     pages = quantity // 10
     pages = pages-1
@@ -114,7 +121,9 @@ def obtainItems(id, driver, writer):
     driver.quit
 
 
-def scrape():
+def scrape(weapon, desiredFloat):
+
+    findIds(weapon)
     with open("currentids.txt", "r") as f:
         lines = f.readlines()
         f = open('output.csv', 'w')
@@ -125,6 +134,7 @@ def scrape():
             driver = webdriver.Chrome(options=options)
             t = obtainItems(id, driver, writer)
         f.close()
+    calculateBest(desiredFloat)
 
 
 if len(sys.argv) != 4:
@@ -134,6 +144,6 @@ else:
     scrape(int(sys.argv[1]), int(sys.argv[2]), float(sys.argv[3]))
 
 # Note: if you want an example of a function run, uncomment this:
-scrape()
+scrape("Dual Berettas | Flora Carnivora", 0.0905)
 
 # add readme.md
