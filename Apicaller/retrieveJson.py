@@ -4,9 +4,12 @@ import time
 
 import httpx, random
 
+from datetime import datetime
 
 from Apicaller.exceptions import BuffError
 
+def epochTimestamp():
+    return int(round(datetime.now().timestamp()*1000))
 
 class Buff:
     base_url = 'https://buff.163.com'
@@ -50,7 +53,8 @@ class Buff:
                 'game': self.game,
                 'goods_id': id,
                 'page_num': 1,
-                'page_size': 2000
+                'page_size': 2000,
+                "_": {epochTimestamp()}
             })
             outputs.append(response)
             time.sleep(random.randint(5,15))

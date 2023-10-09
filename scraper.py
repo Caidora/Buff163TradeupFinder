@@ -23,7 +23,6 @@ def notify(title, text):
 def scrape(weapon, desiredFloat):
     findIds(weapon, desiredFloat)
 
-
     with open("currentids.txt", "r") as f:
         lines = f.readlines()
         ids = []
