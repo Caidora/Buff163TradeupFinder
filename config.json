@@ -3,10 +3,13 @@
   "request_interval": 10,
   "requests_kwargs": {
     "headers": {
-      "cookie": "session=1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxx",
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
       "Referer": "https://buff.163.com/market/csgo",
-      "X-Requested-With": "XMLHttpRequest"
+      "X-Requested-With": "XMLHttpRequest",
+    },
+    "cookies": {
+      "session": "1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxx",
+      "csrf_token": ""
     }
   }
 }
