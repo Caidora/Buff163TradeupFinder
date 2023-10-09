@@ -33,31 +33,22 @@ def getPagesItems(driver, request, j, writer, items):
     for i in range(items):
 
         while True:
-            flag = ""
             try:
-                flag = "havent got wear"
                 wear = driver.find_element(
                     By.XPATH, '/html/body/div[6]/div/div[7]/table/tbody/tr[{}]/td[3]/div/div[1]/div[1]'.format(i+2+offset))
-                flag = "got wear but no price"
                 # consistent html behavior across different item links for CS:GO
                 price = driver.find_element(
                     By.XPATH, '/html/body/div[6]/div/div[7]/table/tbody/tr[{}]/td[5]/div[1]/strong'.format(i+2+offset))
-                flag = "got both"
             except NoSuchElementException:
-                print(flag)
                 print("could not locate item")
                 try:
                     column = driver.find_element(
                         By.XPATH, '/html/body/div[6]/div/div[7]/table/tbody/tr[{}]'.format(i+2+offset))
                     objectclass = column.get_attribute("class")
                     if objectclass[0] == "d":
-                        print("OFFSETING")
                         offset = offset+1
                     continue
                 except NoSuchElementException:
-
-                    driver.get(curRequest)
-                    time.sleep(1)
                     continue
 
             weartext = float(
