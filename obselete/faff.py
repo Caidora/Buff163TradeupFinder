@@ -1,4 +1,4 @@
-csv_filename = 'output.csv'
+csv_filename = '../output.csv'
 items = []
 with open(csv_filename) as f:
     lines = f.readlines()

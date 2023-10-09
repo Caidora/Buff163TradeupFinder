@@ -21,7 +21,7 @@ def notify(title, text):
 
 
 def scrape(weapon, desiredFloat):
-    findIds(weapon)
+    findIds(weapon, desiredFloat)
 
 
     with open("currentids.txt", "r") as f:
@@ -34,7 +34,10 @@ def scrape(weapon, desiredFloat):
         output = buffApiCaller.get_total_page()
 
     Readjson(output)
-    print(calculateBest(desiredFloat))
+    results = calculateBest(desiredFloat)
+    skins = getFloats(results['choices'])
+    print(results)
+    print(skins)
 
 
 if len(sys.argv) != 4:

@@ -2,7 +2,7 @@ import asyncio
 import re
 import time
 
-import httpx
+import httpx, random
 
 
 from Apicaller.exceptions import BuffError
@@ -37,6 +37,7 @@ class Buff:
 
         response = await self.opener.request(*args, **kwargs)
         if response.json()['code'] != 'OK':
+            print("oh shit something went wrong")
             raise BuffError(response.json())
 
         return response.json()['data']
@@ -52,6 +53,7 @@ class Buff:
                 'page_size': 2000
             })
             outputs.append(response)
+            time.sleep(random.randint(5,15))
 
 
         return outputs

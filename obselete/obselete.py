@@ -23,7 +23,7 @@ def obtainItems(id, driver, writer):
     curRequest = request + "1"
     print(curRequest)
     driver.get(curRequest)  # driver configs
-    cookies = pickle.load(open("cookies.pkl", "rb"))  # enable cookies
+    cookies = pickle.load(open("../cookies.pkl", "rb"))  # enable cookies
     for cookie in cookies:
         driver.add_cookie(cookie)
 

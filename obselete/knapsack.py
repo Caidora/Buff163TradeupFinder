@@ -14,7 +14,7 @@ def getPrice(comb):
 
 
 def calculateBest(target_float):
-    csv_filename = 'output.csv'
+    csv_filename = '../output.csv'
     items = []
     with open(csv_filename, encoding="utf8") as f:
         lines = f.readlines()

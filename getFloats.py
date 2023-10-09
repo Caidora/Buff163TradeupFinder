@@ -1,7 +1,7 @@
 
-def calculateBest():
+def getFloats(indexes):
     csv_filename = 'output.csv'
-    indexes = [299, 320, 324, 325, 326, 330, 332, 335, 342, 510]
+    indexes = indexes
     items_bought = []
 
     with open(csv_filename) as f:
