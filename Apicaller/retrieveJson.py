@@ -21,11 +21,11 @@ class Buff:
     def __init__(self, goods_ids, game='csgo', game_appid=730, request_interval=10, request_kwargs=None):
         if request_kwargs is None:
             request_kwargs = {}
-
         self.request_interval = request_interval
         self.request_locks = {}  # {url: [asyncio.Lock, last_request_time]}
         self.headers = request_kwargs[0]
         self.cookies = request_kwargs[1]
+
         self.request_ids = goods_ids
         self.game = game
         self.game_appid = game_appid
