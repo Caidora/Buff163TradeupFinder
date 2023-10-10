@@ -29,14 +29,14 @@ class Buff:
         self.request_ids = goods_ids
         self.game = game
         self.game_appid = game_appid
-        self.opener = httpx.Client(
+        self.client = httpx.Client(
             base_url=self.base_url, headers=self.headers, cookies=self.cookies)
 
 
 
-    def request(self, *args, **kwargs) -> dict:
+    def request(self, params) -> dict:
 
-        response = self.opener.request(*args, **kwargs)
+        response = self.client.get(self.web_sell_order, params=params)
 
         if response.json()['code'] != 'OK':
             print("oh shit something went wrong")
@@ -49,7 +49,7 @@ class Buff:
         outputs = []
         for id in self.request_ids:
             print("making request for {}".format(id))
-            response = self.request('get', self.web_sell_order, params={
+            response = self.request(params={
                 'game': self.game,
                 'goods_id': id,
                 'page_num': 1,
