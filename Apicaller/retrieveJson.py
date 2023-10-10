@@ -15,18 +15,17 @@ def epochTimestamp():
 
 
 class Buff:
-
+    base_url = 'https://buff.163.com'
+    web_sell_order = '/api/market/goods/sell_order'
 
     def __init__(self, goods_ids, game='csgo', game_appid=730, request_interval=10, request_kwargs=None):
-        base_url = 'https://buff.163.com'
-        web_sell_order = '/api/market/goods/sell_order'
+
         if request_kwargs is None:
             request_kwargs = {}
         self.request_interval = request_interval
         self.request_locks = {}  # {url: [asyncio.Lock, last_request_time]}
         self.headers = request_kwargs['headers']
         self.cookies = request_kwargs['Cookie']
-        self.web_sell_order = base_url + web_sell_order
         self.request_ids = goods_ids
         self.game = game
         self.game_appid = game_appid
