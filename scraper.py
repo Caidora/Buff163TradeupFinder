@@ -38,9 +38,8 @@ def scrape(weapon, desiredFloat):
 
     readJson(output)
     results = calculateBest(desiredFloat)
-    skins = getFloats(results['choices'])
     print(results)
-    print(skins)
+    skins = getFloats(results['choices'])
 
 
 if len(sys.argv) != 4:
@@ -50,6 +49,6 @@ else:
     scrape(int(sys.argv[1]), int(sys.argv[2]), float(sys.argv[3]))
 
 # Note: if you want an example of a function run, uncomment this:
-scrape("AWP | Wildfire", 0.086)
+scrape("Nova | Windblown", 0.07)
 
 # add readme.md

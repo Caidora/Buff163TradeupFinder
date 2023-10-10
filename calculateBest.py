@@ -35,4 +35,4 @@ def calculateBest(target_float):
                 "y_mean": y[choices].mean()}
 
 
-# print(calculateBest(0.069))
+# print(calculateBest(0.07))
