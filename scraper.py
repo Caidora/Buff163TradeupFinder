@@ -22,8 +22,16 @@ def notify(title, text):
               """.format(text, title))
 
 
-def scrape(weapon, desiredFloat):
-    findIds(weapon, desiredFloat)
+def scrape(weapons, desiredFloat):
+    ids = []
+    for weapon in weapons:
+        ids.append(findIds(weapon, desiredFloat))
+
+    with open("currentids.txt", "w") as f:
+        for id in ids:
+
+            f.write(id)
+            f.write("\n")
 
     with open("currentids.txt", "r") as f:
         lines = f.readlines()
