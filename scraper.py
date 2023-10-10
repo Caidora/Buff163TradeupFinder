@@ -49,6 +49,6 @@ else:
     scrape(int(sys.argv[1]), int(sys.argv[2]), float(sys.argv[3]))
 
 # Note: if you want an example of a function run, uncomment this:
-scrape("Galil AR | Connexion", 0.09)
+scrape("P250 | Inferno", 0.07)
 
 # add readme.md
