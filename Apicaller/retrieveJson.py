@@ -36,7 +36,7 @@ class Buff:
 
     def request(self, params) -> dict:
 
-        response = self.client.get(self.web_sell_order, params=params)
+        response = self.client.get(self.web_sell_order, params=params, timeout=10)
 
         if response.json()['code'] != 'OK':
             print("oh shit something went wrong")
@@ -53,7 +53,7 @@ class Buff:
                 'game': self.game,
                 'goods_id': id,
                 'page_num': 1,
-                'page_size': 2000,
+                'page_size': 500,
                 "_": {epochTimestamp()}
             })
             outputs.append(response)
