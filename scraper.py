@@ -29,9 +29,10 @@ def scrape(weapons, desiredFloat):
 
     with open("currentids.txt", "w") as f:
         for id in ids:
+            for i in id:
 
-            f.write(id)
-            f.write("\n")
+                f.write(i)
+                f.write("\n")
 
     with open("currentids.txt", "r") as f:
         lines = f.readlines()
@@ -57,6 +58,7 @@ else:
     scrape(int(sys.argv[1]), int(sys.argv[2]), float(sys.argv[3]))
 
 # Note: if you want an example of a function run, uncomment this:
-scrape("P250 | Inferno", 0.07)
+scrape(["P250 | Inferno", "Five-SeveN | Buddy", "M249 | Aztec",
+       "MP5-SD | Agent", "UMP-45 | Plastique"], 0.07)
 
 # add readme.md
