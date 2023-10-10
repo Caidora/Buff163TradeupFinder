@@ -23,7 +23,7 @@ def calculateBest(target_float):
     A = np.vstack([np.ones_like(x), y])
     ub = [num_choices, num_choices * target_mean]
     lb = [num_choices, -np.inf]
-    print("num choices".format(num_choices))
+    #print("num choices".format(num_choices))
     res = milp(x,
                constraints=LinearConstraint(A, ub=ub, lb=lb),
                integrality=np.ones_like(x),

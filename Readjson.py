@@ -28,6 +28,14 @@ def readJson(jsons):
             asset = item['asset_info']
             wear = asset['paintwear']
             price = item['price']
-            writer.writerow([price, wear, item_name])
+
+            goodsid = asset['goods_id']
+            appid = asset['appid']
+            classid = asset['classid']
+            instanceid = asset['instanceid']
+            assetid = asset['assetid']
+            sell_id = item['id']
+            link_str = "https://buff.163.com/goods/{}?appid={}&classid={}&instanceid={}&assetid={}&contextid=2&sell_order_id={}".format(goodsid,appid,classid,instanceid,assetid,sell_id)
+            writer.writerow([price, wear, item_name, link_str])
 
     f.close()

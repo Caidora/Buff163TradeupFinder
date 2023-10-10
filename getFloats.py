@@ -9,7 +9,7 @@ def getFloats(indexes):
         for i in range(len(indexes)):
             curline = lines[indexes[i]].strip().split(',')
             items_bought.append(curline)
-    print(items_bought)
+    print([i[:-1] for i in items_bought])
     sum_of_cost = 0.0
     sum_of_float = 0.0
     for item in items_bought:
@@ -17,6 +17,10 @@ def getFloats(indexes):
         sum_of_float = sum_of_float + float(item[1])
     print(sum_of_cost)
     print(sum_of_float/10)
+    listcounter = 1
+    for i in items_bought:
+        print(str(listcounter) + ": " + i[3] + "       " + i[2])
+        listcounter +=1
 
 
 # calculateBest()

@@ -4,29 +4,29 @@
   "requests_kwargs": {
 
     "headers": {
-      "Accept": "application/json, text/javascript, /; q=0.01",
+      "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, br",
-      "Accept-Language": "en-NZ,en-GB;q=0.9,en;q=0.8,en-US;q=0.7",
+      "Accept-Language": "en-US,en;q=0.9",
       "Connection": "keep-alive",
-      "Cookie": "Device-Id=2na3TF2w7dAyJx0sueOm; Locale-Supported=en; game=csgo; remember_me=U1103156411|PpjeTPvsFGN5IiU9uYlgFQXj8CdsbiQb; session=1--S-96SMC4uZX_hzl3DK9LGOsFuSs3DfZzzxcTkOOHicv2030980067; csrf_token=ImZmODRhN2Q5ZmNkNTUxYTUzMjA0ODZkYTMwY2E0NTFjNjFjZWIxZjci.GAYtcQ.w-zJnHedu6Cmx1H4HlqMI_c4NXs",
+      "Cookie": "Device-Id=TijSnGis0lqs30i6t9lM; Locale-Supported=en; game=csgo; NTES_YD_SESS=BPgX4PBsn.RPZyQDIYooBkUMqyEvHmmrfxxGFW4o2frK8hvwlnN9IYEu.h81IV.Aq89m5hpBYODOzspcDEvKGXR1_LSDykxfzK86vohaXi89UKW9IMYT_Dfufe_CTU4e3.auCRPP9Y1HO5FvaD2aCnrJtcRlSp5.5FaZgK3opunvJlzU2P6qxMk2AANttRxbRJPjBrYPpzvzGuSGmAbtwVi59xTvEpXKViq9EHpj4YXZJ; S_INFO=1696826230|0|0&60##|64-223826610; P_INFO=64-223826610|1696826230|1|netease_buff|00&99|null&null&null#AU&null#10#0|&0||64-223826610; remember_me=U1103156411|8clHpgyjfQuUBzNhHJXJPThFOyaEEeee; session=1-LmwY8Pt1S7Jl8irBvhUM4cM6gJB-1ZofyaRiVrEfk0uj2030980067; csrf_token=IjRjNjU2MzBkN2FmMzIzNjgwYThhNjdmOTQyYmY5NWFhMmM5NDlkZTci.GAZwKA.ejEmTtpafRvJfYODp-1-SI6zM6M",
       "Host": "buff.163.com",
       "Referer": "https://buff.163.com/market/csgo",
       "Sec-Fetch-Dest": "empty",
       "Sec-Fetch-Mode": "cors",
       "Sec-Fetch-Site": "same-origin",
-      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.55",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60",
       "X-Requested-With": "XMLHttpRequest",
       "sec-ch-ua": "'Microsoft Edge';v='117', 'Not;A=Brand';v='8', 'Chromium';v='117'",
       "sec-ch-ua-mobile": "?0",
-      "sec-ch-ua-platform": "macOS"
+      "sec-ch-ua-platform": "Windows"
     },
     "Cookie": {
-      "DeviceId": "2na3TF2w7dAyJx0sueOm",
+      "DeviceId": "TijSnGis0lqs30i6t9lM",
       "Locale-Supported": "en",
       "game": "csgo",
-      "remember_me": "U1103156411|PpjeTPvsFGN5IiU9uYlgFQXj8CdsbiQb",
-      "session": "1--S-96SMC4uZX_hzl3DK9LGOsFuSs3DfZzzxcTkOOHicv2030980067",
-      "csrf_token": "ImZmODRhN2Q5ZmNkNTUxYTUzMjA0ODZkYTMwY2E0NTFjNjFjZWIxZjci"
+      "remember_me": "U1103156411|8clHpgyjfQuUBzNhHJXJPThFOyaEEeee",
+      "session": "1-LmwY8Pt1S7Jl8irBvhUM4cM6gJB-1ZofyaRiVrEfk0uj2030980067",
+      "csrf_token": "IjRjNjU2MzBkN2FmMzIzNjgwYThhNjdmOTQyYmY5NWFhMmM5NDlkZTci.GAZwKA.ejEmTtpafRvJfYODp-1-SI6zM6M"
     }
   }
 }
