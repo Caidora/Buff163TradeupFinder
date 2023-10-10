@@ -1,5 +1,6 @@
 import csv
 
+
 def getNames():
 
     with open("currentids.txt") as f:
@@ -21,7 +22,7 @@ def readJson(jsons):
 
     for json in jsons:
         items = json['items']
-        item_name = json['goods_infos'][ids[0]]['name']
+        item_name = json['goods_infos'][ids[0].strip()]['name']
         ids.pop(0)
         for item in items:
             asset = item['asset_info']

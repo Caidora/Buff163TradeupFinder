@@ -58,7 +58,7 @@ else:
     scrape(int(sys.argv[1]), int(sys.argv[2]), float(sys.argv[3]))
 
 # Note: if you want an example of a function run, uncomment this:
-scrape(["P250 | Inferno", "Five-SeveN | Buddy", "M249 | Aztec",
-       "MP5-SD | Agent", "UMP-45 | Plastique"], 0.07)
+scrape(["MP5-SD | Kitbash", "Galil AR | Connexion", "MAC-10 | Allure",
+       "Tec-9 | Brother", "MAG-7 | Monster Call"], 0.093)
 
 # add readme.md

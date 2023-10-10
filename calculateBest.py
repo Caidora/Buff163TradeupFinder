@@ -2,6 +2,7 @@
 
 import numpy as np
 from scipy.optimize import milp, LinearConstraint, Bounds
+from getFloats import getFloats
 
 
 def calculateBest(target_float):
@@ -36,3 +37,6 @@ def calculateBest(target_float):
 
 
 # print(calculateBest(0.07))
+results = calculateBest(0.093)
+print(results)
+skins = getFloats(results['choices'])
