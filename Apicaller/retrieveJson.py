@@ -29,29 +29,25 @@ class Buff:
         self.request_ids = goods_ids
         self.game = game
         self.game_appid = game_appid
-        self.opener = httpx.AsyncClient(
+        self.opener = httpx.Client(
             base_url=self.base_url, headers=self.headers, cookies=self.cookies)
 
-    async def __aenter__(self):
-        return self
 
-    async def __aexit__(self, exc_type, exc_val, exc_tb):
-        await self.opener.aclose()
 
-    async def request(self, *args, **kwargs) -> dict:
+    def request(self, *args, **kwargs) -> dict:
 
-        response = await self.opener.request(*args, **kwargs)
+        response = self.opener.request(*args, **kwargs)
         if response.json()['code'] != 'OK':
             print("oh shit something went wrong")
             raise BuffError(response.json())
 
         return response.json()['data']
 
-    async def get_total_page(self):
+    def get_total_page(self):
         outputs = []
         for id in self.request_ids:
 
-            response = await self.request('get', self.web_sell_order, params={
+            response = self.request('get', self.web_sell_order, params={
                 'game': self.game,
                 'goods_id': id,
                 'page_num': 1,

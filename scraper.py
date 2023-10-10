@@ -22,7 +22,7 @@ def notify(title, text):
               """.format(text, title))
 
 
-async def scrape(weapon, desiredFloat):
+def scrape(weapon, desiredFloat):
     findIds(weapon, desiredFloat)
 
     with open("currentids.txt", "r") as f:
@@ -34,7 +34,7 @@ async def scrape(weapon, desiredFloat):
         buffApiCaller = Buff(
             goods_ids=ids, request_kwargs=config['buff']['requests_kwargs'])
 
-        output = await buffApiCaller.get_total_page()
+        output = buffApiCaller.get_total_page()
 
     readJson(output)
     results = calculateBest(desiredFloat)
