@@ -13,8 +13,8 @@ def calculateBest(target_float):
         lines = f.readlines()
         for line in lines:
             curline = line.strip().split(',')
-            x.append(float(curline[1]))
-            y.append(float(curline[2]))
+            x.append(float(curline[0]))
+            y.append(float(curline[1]))
 
     target_mean = target_float
     num_choices = 10
