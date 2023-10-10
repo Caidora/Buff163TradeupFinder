@@ -4,11 +4,21 @@
   "requests_kwargs": {
 
     "headers": {
-      "Accept": "",
-
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "Accept": "application/json, text/javascript, /; q=0.01",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-NZ,en-GB;q=0.9,en;q=0.8,en-US;q=0.7",
+      "Connection": "keep-alive",
+      "Cookie": "Device-Id=2na3TF2w7dAyJx0sueOm; Locale-Supported=en; game=csgo; remember_me=U1103156411|PpjeTPvsFGN5IiU9uYlgFQXj8CdsbiQb; session=1--S-96SMC4uZX_hzl3DK9LGOsFuSs3DfZzzxcTkOOHicv2030980067; csrf_token=ImZmODRhN2Q5ZmNkNTUxYTUzMjA0ODZkYTMwY2E0NTFjNjFjZWIxZjci.GAYtcQ.w-zJnHedu6Cmx1H4HlqMI_c4NXs",
+      "Host": "buff.163.com",
       "Referer": "https://buff.163.com/market/csgo",
-      "X-Requested-With": "XMLHttpRequest"
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.55",
+      "X-Requested-With": "XMLHttpRequest",
+      "sec-ch-ua": "'Microsoft Edge';v='117', 'Not;A=Brand';v='8', 'Chromium';v='117'",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "macOS"
     },
     "Cookie": {
       "DeviceId": "2na3TF2w7dAyJx0sueOm",
