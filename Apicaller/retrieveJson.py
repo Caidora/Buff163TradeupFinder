@@ -2,34 +2,35 @@ import asyncio
 import re
 import time
 
-import httpx, random
+import httpx
+import random
 
 from datetime import datetime
 
 from Apicaller.exceptions import BuffError
 
+
 def epochTimestamp():
     return int(round(datetime.now().timestamp()*1000))
+
 
 class Buff:
     base_url = 'https://buff.163.com'
     web_sell_order = '/api/market/goods/sell_order'
-
-
-    csrf_pattern = re.compile(r'name="csrf_token"\s*content="(.+?)"')
 
     def __init__(self, goods_ids, game='csgo', game_appid=730, request_interval=10, request_kwargs=None):
         if request_kwargs is None:
             request_kwargs = {}
         self.request_interval = request_interval
         self.request_locks = {}  # {url: [asyncio.Lock, last_request_time]}
-        self.headers = request_kwargs[0]
-        self.cookies = request_kwargs[1]
+        self.headers = request_kwargs['headers']
+        self.cookies = request_kwargs['Cookie']
 
         self.request_ids = goods_ids
         self.game = game
         self.game_appid = game_appid
-        self.opener = httpx.AsyncClient(base_url=self.base_url, headers=self.headers, cookies=self.cookies)
+        self.opener = httpx.AsyncClient(
+            base_url=self.base_url, headers=self.headers, cookies=self.cookies)
 
     async def __aenter__(self):
         return self
@@ -58,7 +59,6 @@ class Buff:
                 "_": {epochTimestamp()}
             })
             outputs.append(response)
-            time.sleep(random.randint(5,15))
-
+            time.sleep(random.randint(5, 15))
 
         return outputs

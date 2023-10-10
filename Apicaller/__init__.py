@@ -3,7 +3,6 @@ import os
 import pathlib
 import sys
 
-import loguru
 
 if getattr(sys, 'frozen', False):
     # https://pyinstaller.org/en/stable/runtime-information.html
@@ -17,4 +16,3 @@ else:
 config_path = os.path.join(base_path, 'config.json')
 print(config_path)
 config = json.load(open(config_path))
-

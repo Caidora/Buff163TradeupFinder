@@ -10,6 +10,8 @@ from findIds import findIds
 from calculateBest import calculateBest
 from Apicaller.retrieveJson import Buff
 from Apicaller import config
+from Readjson import readJson
+from getFloats import getFloats
 import asyncio
 # The notifier function
 
@@ -29,10 +31,12 @@ def scrape(weapon, desiredFloat):
 
         for line in lines:
             ids.append(line)
-        buffApiCaller = Buff(goods_ids=ids, request_kwargs=config['buff']['requests_kwargs'])
+        buffApiCaller = Buff(
+            goods_ids=ids, request_kwargs=config['buff']['requests_kwargs'])
+
         output = buffApiCaller.get_total_page()
 
-    Readjson(output)
+    readJson(output)
     results = calculateBest(desiredFloat)
     skins = getFloats(results['choices'])
     print(results)

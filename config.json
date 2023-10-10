@@ -2,18 +2,19 @@
   "buff": {
   "request_interval": 10,
   "requests_kwargs": {
+
     "headers": {
-      "Cookies": {
-        "DeviceId": "",
-        "Locale-Supported": "en",
-        "game": "csgo",
-        "remember_me": "",
-        "session": "",
-        "csrf_token": ""
-      },
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
       "Referer": "https://buff.163.com/market/csgo",
       "X-Requested-With": "XMLHttpRequest"
+    },
+    "Cookie": {
+      "DeviceId": "2na3TF2w7dAyJx0sueOm",
+      "Locale-Supported": "en",
+      "game": "csgo",
+      "remember_me": "U1103156411|PpjeTPvsFGN5IiU9uYlgFQXj8CdsbiQb",
+      "session": "1--S-96SMC4uZX_hzl3DK9LGOsFuSs3DfZzzxcTkOOHicv2030980067",
+      "csrf_token": "ImZmODRhN2Q5ZmNkNTUxYTUzMjA0ODZkYTMwY2E0NTFjNjFjZWIxZjci"
     }
   }
 }
