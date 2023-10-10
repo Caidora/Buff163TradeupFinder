@@ -15,17 +15,18 @@ def epochTimestamp():
 
 
 class Buff:
-    base_url = 'https://buff.163.com'
-    web_sell_order = '/api/market/goods/sell_order'
+
 
     def __init__(self, goods_ids, game='csgo', game_appid=730, request_interval=10, request_kwargs=None):
+        base_url = 'https://buff.163.com'
+        web_sell_order = '/api/market/goods/sell_order'
         if request_kwargs is None:
             request_kwargs = {}
         self.request_interval = request_interval
         self.request_locks = {}  # {url: [asyncio.Lock, last_request_time]}
         self.headers = request_kwargs['headers']
         self.cookies = request_kwargs['Cookie']
-
+        self.web_sell_order = base_url + web_sell_order
         self.request_ids = goods_ids
         self.game = game
         self.game_appid = game_appid
@@ -37,16 +38,18 @@ class Buff:
     def request(self, *args, **kwargs) -> dict:
 
         response = self.opener.request(*args, **kwargs)
+
         if response.json()['code'] != 'OK':
             print("oh shit something went wrong")
             raise BuffError(response.json())
-
+        else:
+            print("GOT REQUEST BACK")
         return response.json()['data']
 
     def get_total_page(self):
         outputs = []
         for id in self.request_ids:
-
+            print("making request for {}".format(id))
             response = self.request('get', self.web_sell_order, params={
                 'game': self.game,
                 'goods_id': id,
@@ -55,6 +58,7 @@ class Buff:
                 "_": {epochTimestamp()}
             })
             outputs.append(response)
+            print("appended request going to sleep.zzz")
             time.sleep(random.randint(5, 15))
 
         return outputs
