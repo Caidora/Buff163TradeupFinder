@@ -24,9 +24,9 @@ def notify(title, text):
 
 def scrape(weapons, desiredFloat):
     ids = []
+    print(1)
     for weapon in weapons:
         ids.append(findIds(weapon, desiredFloat))
-
     with open("currentids.txt", "w") as f:
         for id in ids:
             for i in id:
@@ -58,6 +58,8 @@ else:
     scrape(int(sys.argv[1]), int(sys.argv[2]), float(sys.argv[3]))
 
 # Note: if you want an example of a function run, uncomment this:
-scrape(["MP5-SD | Kitbash"], 0.093)
+
+scrape(["P250 | Inferno", "Five-SeveN | Buddy", "UMP-45 | Plastique"], 0.1228)
+
 
 # add readme.md

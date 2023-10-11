@@ -52,7 +52,7 @@ class Buff:
                 'game': self.game,
                 'goods_id': id,
                 'page_num': 1,
-                'page_size': 1000,
+                'page_size': 500,
                 "_": {epochTimestamp()}
             })
             outputs.append(response)

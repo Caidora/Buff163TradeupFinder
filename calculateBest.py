@@ -10,12 +10,13 @@ def calculateBest(target_float):
     items = []
     x = []
     y = []
-    with open(csv_filename, encoding="utf8") as f:
+    with open(csv_filename, encoding="utf8") as f: #windows-1252
         lines = f.readlines()
         for line in lines:
             curline = line.strip().split(',')
             x.append(float(curline[0]))
             y.append(float(curline[1]))
+
 
     target_mean = target_float
     num_choices = 10
@@ -37,6 +38,6 @@ def calculateBest(target_float):
 
 
 # print(calculateBest(0.07))
-results = calculateBest(0.093)
+results = calculateBest(0.1228)
 print(results)
 skins = getFloats(results['choices'])

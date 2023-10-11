@@ -19,8 +19,8 @@ def removeChoices(choices):
     writer = csv.writer(f)
     for line in newOutput:
         curline = line.strip().split(',')
-        writer.writerow([curline[0], curline[1], curline[2]])
+        writer.writerow([curline[0], curline[1], curline[2],curline[3]])
     f.close()
 
 
-removeChoices([100,  489, 1412, 1437, 1438, 1522, 3027, 3031, 3157, 3168])
+removeChoices([ 128,  130,  291,  304,  305, 1139, 1146, 1147, 1185, 1409])
