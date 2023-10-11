@@ -1,3 +1,4 @@
+import json
 ranges = []
 names = []
 with open("buffskinrange.txt", encoding="utf8") as f:
@@ -28,6 +29,9 @@ with open("buffids.txt", encoding="utf8") as f:
 
             #print(names[names.index(curline[1].split('(')[0].strip())],curline[0])
 
+with open("ranges.json", "w") as outfile:
+    # json_data refers to the above JSON
+    json.dump(dic, outfile)
 
 print(dic)
 for i in names:
