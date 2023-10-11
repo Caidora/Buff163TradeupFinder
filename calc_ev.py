@@ -24,7 +24,7 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
 
     for out in outputs:
         floatOf = float_out(dic[out], avgfloat)
-        if floatOf < 0.045:
+        if floatOf < 0.04:
             check_over.append(out)
             over_floats.append(floatOf)
         if floatOf < 0.07:
@@ -52,6 +52,7 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
     ev = (profit+cost)/cost*100
     print("Check overpay(<0.05): " + repr(check_over))
     print(wear)
+    print("Total cost: "+ "$"+cost)
     print("EV: "+str(ev)+"%")
     print("Profit per Trade-Up: $" + str(profit))
     for i in outputs:

@@ -2,18 +2,18 @@ from scraper import *
 
 weapon_grades = ['Consumer', 'Industrial', 'Mil-Spec', 'Restricted', 'Classified', 'Covert']
 
-collection = "Recoil Case"
+collection = "Revolution Case"
 grade = "Restricted"
 
 going_for = get_weapons_from_coll(collection, weapon_grades[weapon_grades.index(grade) + 1])
 desired = 100
-remove = ["Sawed-Off | Kiss♥Love"]
+remove = []
 
 for j in remove:
     going_for.remove(j)
 
 for i in going_for:
-    temp = calculate_float(i, 0.07)
+    temp = calculate_float(i, 0.069)
     if temp < desired:
         desired = temp
 

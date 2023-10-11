@@ -40,10 +40,10 @@ def calculateBest(target_float):
 
 
 # print(calculateBest(0.07))
-'''results = calculateBest(0.069)
+'''results = calculateBest(0.07)
 print(results)
 skins = getFloats(results['choices'])
 
-collection = "Revolution Case"
-grade = "Classified"
-ev_calc(results['x_sum'], results['y_mean'], collection, grade, statty = True)'''
+collection = "Recoil Case"
+grade = "Restricted"
+ev_calc(results['x_sum'], results['y_mean'], collection, grade)'''
