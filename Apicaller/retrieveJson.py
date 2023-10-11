@@ -59,6 +59,22 @@ class Buff:
             print("appended request going to sleep.zzz")
             time.sleep(random.randint(5, 15))
 
+            item_count = response['total_count']
+            more_pages = item_count // 500 - 1
+            for i in range(more_pages):
+                print("making request for {}, page: {}".format(id,i+2))
+                response = self.request(params={
+                    'game': self.game,
+                    'goods_id': id,
+                    'page_num': i+2,
+                    'page_size': 500,
+                    "_": {epochTimestamp()}
+                })
+                outputs.append(response)
+                print("appended request going to sleep.zzz")
+                time.sleep(random.randint(5, 15))
+
+
         return outputs
 
     def get_item_prices(self):
