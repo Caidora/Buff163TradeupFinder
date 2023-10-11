@@ -60,7 +60,7 @@ else:
 
 # Note: if you want an example of a function run, uncomment this:
 
-scrape(["MP5-SD | Kitbash", "Tec-9 | Brother", "Galil AR | Connexion", "MAG-7 | Monster Call", "MAC-10 | Allure"], 0.093)
+scrape(["PP-Bizon | Antique", "AUG | Torque", "XM1014 | Heaven Guard", "MAC-10 | Tatter"], 0.077)
 
 
 # add readme.md
