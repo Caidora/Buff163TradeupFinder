@@ -3,6 +3,7 @@
 import numpy as np
 from scipy.optimize import milp, LinearConstraint, Bounds
 from getFloats import getFloats
+from calc_ev import ev_calc
 
 
 def calculateBest(target_float):
@@ -37,7 +38,12 @@ def calculateBest(target_float):
                 "y_mean": y[choices].mean()}
 
 
+
 # print(calculateBest(0.07))
-results = calculateBest(0.093)
+results = calculateBest(0.069)
 print(results)
 skins = getFloats(results['choices'])
+
+collection = "Prisma Case"
+grade = "Restricted"
+ev_calc(results['x_sum'], results['y_mean'], collection, grade)
