@@ -55,19 +55,19 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade):
         print("Profit on {}: ${}".format(i, out_price[outputs.index(i)]-cost))
 
     for over in check_over:
-        over_ind = check_over.index(over)
-        new_price = float(input("\nEnter overpay price for {} ({}): ".format(over,over_floats[over_ind])))
+        over_ind = outputs.index(over)
+        new_price = float(input("\nEnter overpay price for {} ({}): ".format(over,over_floats[check_over.index(over)])))
         out_price[over_ind] = new_price
 
+    if len(check_over)>0:
+        profit = (sum(out_price) / len(out_price)) - cost
+        ev = (profit + cost) / cost * 100
 
-    profit = (sum(out_price) / len(out_price)) - cost
-    ev = (profit + cost) / cost * 100
-
-    print("\nNew EV:")
-    print("EV: " + str(ev) + "%")
-    print("Profit per Trade-Up: " + str(profit))
-    for i in outputs:
-        print("Profit on {}: ${}".format(i, out_price[outputs.index(i)]-cost))
+        print("\nNew EV:")
+        print("EV: " + str(ev) + "%")
+        print("Profit per Trade-Up: " + str(profit))
+        for i in outputs:
+            print("Profit on {}: ${}".format(i, out_price[outputs.index(i)]-cost))
     return ev
 
 #ev_calc(results[0]['x_sum'], results[0]['y_mean'], collection, grade)
