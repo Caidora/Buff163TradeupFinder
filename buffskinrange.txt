@@ -1465,7 +1465,8 @@ SG 553 | Dragon Tech,0.0,0.7
 P90 | Vent Rush,0.0,0.7
 Dual Berettas | Flora Carnivora,0.0,1.0
 AK-47 | Ice Coaled,0.0,0.77
-P250 | Visions,0.0,0.7USP-S | Printstream,0.0,0.85
+P250 | Visions,0.0,0.7
+USP-S | Printstream,0.0,0.85
 AWP | Chromatic Aberration,0.0,0.7
 MAG-7 | Insomnia,0.0,1.0
 MP9 | Featherweight,0.0,1.0
