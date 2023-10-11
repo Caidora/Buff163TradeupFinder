@@ -47,9 +47,9 @@ def scrape(collection, grade, desiredFloat, statty=False):
         buffApiCaller = Buff(
             goods_ids=ids, request_kwargs=config['buff']['requests_kwargs'])
 
-        output = buffApiCaller.get_total_page()
+        output, outs_ids = buffApiCaller.get_total_page()
 
-    readJson(output)
+    readJson(output, outs_ids)
     results = calculateBest(desiredFloat)
     print(results)
     skins = getFloats(results['choices'])

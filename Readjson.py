@@ -14,11 +14,10 @@ def getNames():
                 names.append(curline[1])
 
 
-def readJson(jsons):
+def readJson(jsons, ids):
     f = open('output.csv', 'w', newline='')
     writer = csv.writer(f)
-    f2 = open('currentids.txt', 'r')
-    ids = f2.readlines()
+
 
     for json in jsons:
         items = json['items']

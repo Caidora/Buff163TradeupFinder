@@ -46,6 +46,7 @@ class Buff:
 
     def get_total_page(self):
         outputs = []
+        outputs_ids = []
         for id in self.request_ids:
             print("making request for {}".format(id))
             response = self.request(params={
@@ -56,6 +57,7 @@ class Buff:
                 "_": {epochTimestamp()}
             })
             outputs.append(response)
+            outputs_ids.append(id)
             print("appended request going to sleep.zzz")
             time.sleep(random.randint(5, 15))
 
@@ -71,11 +73,12 @@ class Buff:
                     "_": {epochTimestamp()}
                 })
                 outputs.append(response)
+                outputs_ids.append(id)
                 print("appended request going to sleep.zzz")
                 time.sleep(random.randint(5, 15))
 
 
-        return outputs
+        return outputs, outputs_ids
 
     def get_item_prices(self):
         outputs = []
