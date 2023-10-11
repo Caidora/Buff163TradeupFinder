@@ -11,7 +11,7 @@ def calculateBest(target_float):
     items = []
     x = []
     y = []
-    with open(csv_filename, encoding="utf8") as f: #windows-1252
+    with open(csv_filename, encoding="windows-1252") as f: #windows-1252 TM
         lines = f.readlines()
         for line in lines:
             curline = line.strip().split(',')
@@ -40,10 +40,10 @@ def calculateBest(target_float):
 
 
 # print(calculateBest(0.07))
-results = calculateBest(0.069)
+'''results = calculateBest(0.069)
 print(results)
 skins = getFloats(results['choices'])
 
-collection = "Recoil Case"
-grade = "Restricted"
-ev_calc(results['x_sum'], results['y_mean'], collection, grade)
+collection = "Revolution Case"
+grade = "Classified"
+ev_calc(results['x_sum'], results['y_mean'], collection, grade, statty = True)'''

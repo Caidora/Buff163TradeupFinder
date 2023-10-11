@@ -15,7 +15,7 @@ def float_out(rangearr,avg):
     return (maxi-mini)*avg + mini
 
 
-def ev_calc(cost, avgfloat, inputcoll, inputgrade):
+def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
     outputs = get_weapons_from_coll(inputcoll,weapon_grades[weapon_grades.index(inputgrade)+1])
     wear = []
     check_over = []
@@ -24,18 +24,18 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade):
 
     for out in outputs:
         floatOf = float_out(dic[out], avgfloat)
-        if floatOf < 0.05:
+        if floatOf < 0.045:
             check_over.append(out)
             over_floats.append(floatOf)
         if floatOf < 0.07:
             wear.append(out + " (Factory New)")
-            ids.append(findIds(out,0,"(Factory New)"))
+            ids.append(findIds(out,0,"(Factory New)",statty=statty))
         elif floatOf < 0.15:
             wear.append(out + " (Minimal Wear)")
-            ids.append(findIds(out, 0, "(Minimal Wear)"))
+            ids.append(findIds(out, 0, "(Minimal Wear)",statty=statty))
         else:
             wear.append(out + " (Field-Tested)")
-            ids.append(findIds(out, 0, "(Field-Tested)"))
+            ids.append(findIds(out, 0, "(Field-Tested)",statty=statty))
     buffApiCaller = Buff(
         goods_ids=ids, request_kwargs=config['buff']['requests_kwargs'])
     pricejsons = buffApiCaller.get_item_prices()

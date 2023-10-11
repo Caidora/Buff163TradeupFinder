@@ -23,4 +23,4 @@ def removeChoices(choices):
     f.close()
 
 
-removeChoices([ 128,  130,  291,  304,  305, 1139, 1146, 1147, 1185, 1409])
+removeChoices([147, 148, 149, 160, 177, 243, 244, 248, 368, 402])

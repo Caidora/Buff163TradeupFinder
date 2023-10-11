@@ -14,6 +14,7 @@ from Readjson import readJson
 from getFloats import getFloats
 from get_weapons_from_coll import get_weapons_from_coll
 from calc_ev import ev_calc
+from calc_float import calculate_float
 import asyncio
 # The notifier function
 
@@ -24,12 +25,12 @@ def notify(title, text):
               """.format(text, title))
 
 
-def scrape(collection, grade, desiredFloat):
+def scrape(collection, grade, desiredFloat, statty=False):
     ids = []
 
     weapons = get_weapons_from_coll(collection, grade)
     for weapon in weapons:
-        ids.append(findIds(weapon, desiredFloat))
+        ids.append(findIds(weapon, desiredFloat, statty=statty))
     with open("currentids.txt", "w") as f:
         for id in ids:
             for i in id:
@@ -62,15 +63,7 @@ else:
     scrape(int(sys.argv[1]), int(sys.argv[2]), float(sys.argv[3]))
 
 # Note: if you want an example of a function run, uncomment this:
-#weapon_grades = ['Consumer','Industrial','Mil-Spec','Restricted','Classified','Covert']
 
-#scrape("Prisma Case", "Mil-Spec", 0.077)
-
-collection = "Recoil Case"
-grade = "Restricted"
-
-results, links = scrape(collection, grade, 0.07)
-ev = ev_calc(results['x_sum'], results['y_mean'], collection, grade)
 
 
 # add readme.md

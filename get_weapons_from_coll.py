@@ -5,4 +5,4 @@ def get_weapons_from_coll(coll, grade):
        collections = json.load(f)
     return collections[coll][grade]
 
-get_weapons_from_coll("Prisma Case", "Mil-Spec")
+#get_weapons_from_coll("Prisma Case", "Mil-Spec")

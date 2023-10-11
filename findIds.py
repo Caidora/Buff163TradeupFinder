@@ -1,4 +1,4 @@
-def findIds(toFind, desiredFloat, booleanval = 'Normal'): #boolean to just get fac new etc()
+def findIds(toFind, desiredFloat, booleanval = 'Normal', statty = False): #boolean to just get fac new etc()
 
     csv_filename = 'buffids.txt'
     ids = []
@@ -16,8 +16,10 @@ def findIds(toFind, desiredFloat, booleanval = 'Normal'): #boolean to just get f
     else:
         conditions.append(booleanval)
 
+    if statty:
+        toFind = "StatTrak™ " + toFind
 
-    with open(csv_filename, encoding="utf8") as f:
+    with open(csv_filename, encoding="utf-8") as f:
 
         lines = f.readlines()
         for line in lines:

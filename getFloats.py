@@ -21,6 +21,8 @@ def getFloats(indexes):
     links = []
     for i in items_bought:
         linkline = str(listcounter) + ": " + i[3] + "       " + i[2]
+        if len(items_bought)!=10:
+            print("ERROR")
         print(linkline)
         listcounter +=1
         links.append(linkline)
