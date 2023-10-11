@@ -66,11 +66,11 @@ else:
 
 #scrape("Prisma Case", "Mil-Spec", 0.077)
 
-collection = "Prisma Case"
+collection = "Recoil Case"
 grade = "Restricted"
 
 results, links = scrape(collection, grade, 0.07)
-ev = ev_calc(results[0]['x_sum'], results[0]['y_mean'], collection, grade)
+ev = ev_calc(results['x_sum'], results['y_mean'], collection, grade)
 
 
 # add readme.md

@@ -44,6 +44,6 @@ results = calculateBest(0.069)
 print(results)
 skins = getFloats(results['choices'])
 
-collection = "Prisma Case"
+collection = "Recoil Case"
 grade = "Restricted"
 ev_calc(results['x_sum'], results['y_mean'], collection, grade)
