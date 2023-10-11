@@ -49,6 +49,7 @@ def scrape(weapons, desiredFloat):
     results = calculateBest(desiredFloat)
     print(results)
     skins = getFloats(results['choices'])
+    return results, skins
 
 
 if len(sys.argv) != 4:
@@ -59,7 +60,7 @@ else:
 
 # Note: if you want an example of a function run, uncomment this:
 
-scrape(["MP7 | Mischief", "FAMAS | Crypsis", "MAC-10 | Whitefish", "Galil AR | Akoben"], 0.07)
+scrape(["MP5-SD | Kitbash", "Tec-9 | Brother", "Galil AR | Connexion", "MAG-7 | Monster Call", "MAC-10 | Allure"], 0.093)
 
 
 # add readme.md

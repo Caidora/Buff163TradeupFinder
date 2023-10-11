@@ -18,9 +18,13 @@ def getFloats(indexes):
     print(sum_of_cost)
     print(sum_of_float/10)
     listcounter = 1
+    links = []
     for i in items_bought:
-        print(str(listcounter) + ": " + i[3] + "       " + i[2])
+        linkline = str(listcounter) + ": " + i[3] + "       " + i[2]
+        print(linkline)
         listcounter +=1
+        links.append(linkline)
+    return links
 
 
 # calculateBest()

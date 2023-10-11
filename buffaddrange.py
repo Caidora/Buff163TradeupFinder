@@ -24,9 +24,8 @@ with open("buffids.txt", encoding="utf8") as f:
 
         if jname in names:
             if jname not in dic:
-                dic[jname] = [ranges[names.index(jname)], curline[0]]
-            else:
-                dic[jname] += [curline[0]]
+                dic[jname] = ranges[names.index(jname)]
+
             #print(names[names.index(curline[1].split('(')[0].strip())],curline[0])
 
 

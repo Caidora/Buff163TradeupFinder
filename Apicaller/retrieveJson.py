@@ -60,3 +60,19 @@ class Buff:
             time.sleep(random.randint(5, 15))
 
         return outputs
+
+    def get_item_prices(self):
+        outputs = []
+        for id in self.request_ids:
+            print("making request for {}".format(id))
+            response = self.request(params={
+                'game': self.game,
+                'goods_id': id,
+                'page_num': 1,
+                "_": {epochTimestamp()}
+            })
+            outputs.append(response)
+            print("appended request going to sleep.zzz")
+            time.sleep(random.randint(5, 15))
+
+        return outputs
