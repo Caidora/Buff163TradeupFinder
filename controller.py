@@ -49,9 +49,11 @@ def adjust_controller(collection, grade, new_float):
 
 
 
-collection = "Recoil Case"
+collection = "Revolution Case"
 grade = "Restricted"
+
 remove = ["Sawed-Off | Kiss♥Love"]
+
 
 main_controller_no_statty(collection, grade, remove)
 
