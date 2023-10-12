@@ -37,11 +37,11 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
             wear.append(out + " (Field-Tested)")
             ids.append(findIds(out, 0, "(Field-Tested)",statty=statty))
 
-    with open('output_price.txt', 'w') as f:
-        outputs_check = f.readline()
+    with open('output_price.txt', 'r') as f:
+        outputs_check = f.readline().strip()
         out_price_check = f.readline()
 
-    if outputs_check != outputs:
+    if outputs_check != str(outputs):
         buffApiCaller = Buff(
             goods_ids=ids, request_kwargs=config['buff']['requests_kwargs'])
         pricejsons = buffApiCaller.get_item_prices()
@@ -53,10 +53,11 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
             out_price.append(float(items[0]['price']))
 
         with open('output_price.txt', 'w') as f:
-            f.write(outputs)
-            f.write(out_price)
+            f.write(str(outputs))
+            f.write("\n")
+            f.write(str(out_price))
     else:
-        out_price = out_price_check
+        out_price = eval(out_price_check)
 
 
 
