@@ -37,15 +37,15 @@ def another_output(collection, grade, new_float, statty=False, last_output=[]):
 
 
 
-collection = "Revolution Case"
-grade = "Classified"
-remove = []
-statty = False
+collection = "Operation Breakout Weapon Case"
+grade = "Restricted"
+remove = ["Five-SeveN | Fowl Play"]
+statty = True
 
-#results = main_controller(collection, grade, remove, statty=statty)
+#main_controller(collection, grade, remove, statty=statty)
 
 
-new_float = 0.07
-#adjust_controller(collection, grade, new_float, statty=statty)
+new_float = 0.1
+adjust_controller(collection, grade, new_float, statty=statty)
 
-another_output(collection, grade, new_float, statty, last_output=[]) #find the index of results needed for results
+#another_output(collection, grade, new_float, statty, last_output=[]) #find the index of results needed for results

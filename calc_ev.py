@@ -39,9 +39,10 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
 
     with open('output_price.txt', 'r') as f:
         outputs_check = f.readline().strip()
-        out_price_check = f.readline()
+        out_price_check = f.readline().strip()
+        stat_check = f.readline()
 
-    if outputs_check != str(outputs):
+    if outputs_check != str(outputs) or stat_check != str(statty):
         buffApiCaller = Buff(
             goods_ids=ids, request_kwargs=config['buff']['requests_kwargs'])
         pricejsons = buffApiCaller.get_item_prices()
@@ -56,6 +57,8 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
             f.write(str(outputs))
             f.write("\n")
             f.write(str(out_price))
+            f.write("\n")
+            f.write("Stat =" + str(statty))
     else:
         out_price = eval(out_price_check)
 
