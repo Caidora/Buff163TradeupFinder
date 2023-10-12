@@ -24,7 +24,7 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
 
     for out in outputs:
         floatOf = float_out(dic[out], avgfloat)
-        if floatOf < 0.05:
+        if floatOf < 0.05 or (floatOf > 0.07 and floatOf < 0.1):
             check_over.append(out)
             over_floats.append(floatOf)
         if floatOf < 0.07:
@@ -36,17 +36,29 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
         else:
             wear.append(out + " (Field-Tested)")
             ids.append(findIds(out, 0, "(Field-Tested)",statty=statty))
-    buffApiCaller = Buff(
-        goods_ids=ids, request_kwargs=config['buff']['requests_kwargs'])
-    pricejsons = buffApiCaller.get_item_prices()
 
-    out_price = []
+    with open('output_price.txt', 'w') as f:
+        outputs_check = f.readline()
+        out_price_check = f.readline()
 
-    for json in pricejsons:
-        items = json['items']
-        out_price.append(float(items[0]['price']))
+    if outputs_check != outputs:
+        buffApiCaller = Buff(
+            goods_ids=ids, request_kwargs=config['buff']['requests_kwargs'])
+        pricejsons = buffApiCaller.get_item_prices()
 
-    print(out_price)
+        out_price = []
+
+        for json in pricejsons:
+            items = json['items']
+            out_price.append(float(items[0]['price']))
+
+        with open('output_price.txt', 'w') as f:
+            f.write(outputs)
+            f.write(out_price)
+    else:
+        out_price = out_price_check
+
+
 
     profit = (sum(out_price)/len(out_price))-cost
     ev = (profit+cost)/cost*100
