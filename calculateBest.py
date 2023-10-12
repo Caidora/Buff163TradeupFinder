@@ -40,7 +40,7 @@ def calculateBest(target_float):
 
 
 # print(calculateBest(0.07))
-'''results = calculateBest(0.07)
+'''results = calculateBest(0.045)
 print(results)
 skins = getFloats(results['choices'])
 

@@ -29,6 +29,13 @@ def scrape(collection, grade, desiredFloat, statty=False):
     ids = []
 
     weapons = get_weapons_from_coll(collection, grade)
+
+    #remove items not working
+    remove = []
+    for i in remove:
+        weapons.remove(i)
+
+
     for weapon in weapons:
         ids.append(findIds(weapon, desiredFloat, statty=statty))
     with open("currentids.txt", "w") as f:

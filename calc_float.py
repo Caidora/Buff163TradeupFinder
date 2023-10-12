@@ -1,5 +1,5 @@
 import json
-with open('ranges.json') as f:
+with open('ranges.json', encoding='utf-8') as f:
    dic = json.load(f)
 
 def calculate_float(weapon, desired): #min(lowest) max(highest) of output skin float
@@ -10,5 +10,5 @@ def calculate_float_single(mini, maxi): #min(lowest) max(highest) of output skin
     fac_new = 0.07
     return (fac_new - mini)/(maxi-mini)
 
-#print(calculate_float(0,0.9))
+print(calculate_float_single(0.0,0.75))
 

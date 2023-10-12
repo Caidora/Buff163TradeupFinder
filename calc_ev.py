@@ -5,7 +5,7 @@ from get_weapons_from_coll import get_weapons_from_coll
 
 import json
 
-with open('ranges.json') as f:
+with open('ranges.json', encoding='utf-8') as f:
    dic = json.load(f)
 
 weapon_grades = ['Consumer','Industrial','Mil-Spec','Restricted','Classified','Covert']
@@ -24,7 +24,7 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
 
     for out in outputs:
         floatOf = float_out(dic[out], avgfloat)
-        if floatOf < 0.04:
+        if floatOf < 0.05:
             check_over.append(out)
             over_floats.append(floatOf)
         if floatOf < 0.07:
@@ -52,7 +52,7 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
     ev = (profit+cost)/cost*100
     print("Check overpay(<0.05): " + repr(check_over))
     print(wear)
-    print("Total cost: "+ "$"+cost)
+    print("Total cost: "+ "$"+str(cost))
     print("EV: "+str(ev)+"%")
     print("Profit per Trade-Up: $" + str(profit))
     for i in outputs:
@@ -68,6 +68,7 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
         ev = (profit + cost) / cost * 100
 
         print("\nNew EV:")
+        print("Total cost: " + "$" + str(cost))
         print("EV: " + str(ev) + "%")
         print("Profit per Trade-Up: " + str(profit))
         for i in outputs:
