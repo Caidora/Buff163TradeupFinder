@@ -42,7 +42,7 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
         out_price_check = f.readline().strip()
         stat_check = f.readline()
 
-    if outputs_check != str(outputs) or stat_check != str(statty):
+    if outputs_check != str(outputs) or stat_check != "Stat =" + str(statty):
         buffApiCaller = Buff(
             goods_ids=ids, request_kwargs=config['buff']['requests_kwargs'])
         pricejsons = buffApiCaller.get_item_prices()
@@ -53,7 +53,7 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
             items = json['items']
             out_price.append(float(items[0]['price']))
 
-        with open('output_price.txt', 'w') as f:
+        with open('output_price.txt', 'w', encoding='utf-8') as f:
             f.write(str(outputs))
             f.write("\n")
             f.write(str(out_price))
@@ -66,6 +66,7 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
 
     profit = (sum(out_price)/len(out_price))-cost
     ev = (profit+cost)/cost*100
+    print(out_price)
     print("Check overpay(<0.05): " + repr(check_over))
     print(wear)
     print("Total cost: "+ "$"+str(cost))
@@ -84,6 +85,7 @@ def ev_calc(cost, avgfloat, inputcoll, inputgrade,statty=False):
         ev = (profit + cost) / cost * 100
 
         print("\nNew EV:")
+        print(wear)
         print("Total cost: " + "$" + str(cost))
         print("EV: " + str(ev) + "%")
         print("Profit per Trade-Up: " + str(profit))

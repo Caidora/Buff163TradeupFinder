@@ -10,5 +10,5 @@ def calculate_float_single(mini, maxi): #min(lowest) max(highest) of output skin
     fac_new = 0.07
     return (fac_new - mini)/(maxi-mini)
 
-print(calculate_float_single(0.0,0.75))
+#print(calculate_float_single(0.01,0.7))
 
