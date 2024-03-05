@@ -1,0 +1,3 @@
+['R8 Revolver | Skull Crusher (Field-Tested)', 'AUG | Momentum (Field-Tested)', 'XM1014 | Incinegator (Field-Tested)']
+[10.77, 10.25, 10.3]
+Stat =False

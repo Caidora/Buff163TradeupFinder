@@ -1,0 +1,4550 @@
+{
+  "Nova | Sand Dune": [
+    "0.06",
+    "0.8"
+  ],
+  "M4A4 | Evil Daimyo": [
+    "0.0",
+    "0.52"
+  ],
+  "P250 | Boreal Forest": [
+    "0.06",
+    "0.8"
+  ],
+  "Tec-9 | Ice Cap": [
+    "0.0",
+    "0.5"
+  ],
+  "MAC-10 | Lapis Gator": [
+    "0.0",
+    "0.5"
+  ],
+  "AUG | Condemned": [
+    "0.06",
+    "0.8"
+  ],
+  "MAC-10 | Candy Apple": [
+    "0.0",
+    "0.3"
+  ],
+  "CZ75-Auto | Polymer": [
+    "0.0",
+    "0.5"
+  ],
+  "MP9 | Bioleak": [
+    "0.0",
+    "0.5"
+  ],
+  "MAC-10 | Silver": [
+    "0.0",
+    "0.08"
+  ],
+  "Dual Berettas | Stained": [
+    "0.0",
+    "1.0"
+  ],
+  "Five-SeveN | Orange Peel": [
+    "0.06",
+    "0.8"
+  ],
+  "Desert Eagle | Mudder": [
+    "0.06",
+    "0.8"
+  ],
+  "Glock-18 | Bunsen Burner": [
+    "0.0",
+    "0.8"
+  ],
+  "USP-S | Torque": [
+    "0.0",
+    "0.46"
+  ],
+  "P2000 | Turf": [
+    "0.0",
+    "1.0"
+  ],
+  "Desert Eagle | Oxide Blaze": [
+    "0.0",
+    "0.5"
+  ],
+  "Desert Eagle | Urban Rubble": [
+    "0.0",
+    "0.5"
+  ],
+  "MP7 | Urban Hazard": [
+    "0.0",
+    "0.5"
+  ],
+  "MP7 | Cirrus": [
+    "0.0",
+    "0.75"
+  ],
+  "Five-SeveN | Violent Daimyo": [
+    "0.0",
+    "0.7"
+  ],
+  "MP7 | Asterion": [
+    "0.0",
+    "0.55"
+  ],
+  "M249 | System Lock": [
+    "0.0",
+    "0.8"
+  ],
+  "AK-47 | Elite Build": [
+    "0.0",
+    "1.0"
+  ],
+  "MP9 | Sand Scale": [
+    "0.0",
+    "0.45"
+  ],
+  "Dual Berettas | Cobalt Quartz": [
+    "0.0",
+    "0.4"
+  ],
+  "Dual Berettas | Contractor": [
+    "0.06",
+    "0.8"
+  ],
+  "AK-47 | Cartel": [
+    "0.0",
+    "0.75"
+  ],
+  "Dual Berettas | Colony": [
+    "0.06",
+    "0.8"
+  ],
+  "AK-47 | Aquamarine Revenge": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Black Laminate": [
+    "0.06",
+    "0.8"
+  ],
+  "AK-47 | Bloodsport": [
+    "0.0",
+    "0.45"
+  ],
+  "AK-47 | Blue Laminate": [
+    "0.02",
+    "0.4"
+  ],
+  "AK-47 | Case Hardened": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Emerald Pinstripe": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Fire Serpent": [
+    "0.06",
+    "0.76"
+  ],
+  "AK-47 | First Class": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Frontside Misty": [
+    "0.02",
+    "0.87"
+  ],
+  "AK-47 | Fuel Injector": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Hydroponic": [
+    "0.0",
+    "0.8"
+  ],
+  "AK-47 | Jaguar": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Jet Set": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Jungle Spray": [
+    "0.06",
+    "0.8"
+  ],
+  "AK-47 | Neon Revolution": [
+    "0.0",
+    "0.8"
+  ],
+  "AK-47 | Orbit Mk01": [
+    "0.0",
+    "0.55"
+  ],
+  "AK-47 | Point Disarray": [
+    "0.0",
+    "0.67"
+  ],
+  "AK-47 | Predator": [
+    "0.06",
+    "0.8"
+  ],
+  "AK-47 | Red Laminate": [
+    "0.06",
+    "0.8"
+  ],
+  "AK-47 | Redline": [
+    "0.1",
+    "0.7"
+  ],
+  "AK-47 | Safari Mesh": [
+    "0.06",
+    "0.8"
+  ],
+  "AK-47 | The Empress": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Vulcan": [
+    "0.0",
+    "0.9"
+  ],
+  "AK-47 | Wasteland Rebel": [
+    "0.05",
+    "0.7"
+  ],
+  "AUG | Akihabara Accept": [
+    "0.0",
+    "1.0"
+  ],
+  "AUG | Anodized Navy": [
+    "0.0",
+    "0.08"
+  ],
+  "AUG | Aristocrat": [
+    "0.0",
+    "0.66"
+  ],
+  "AUG | Bengal Tiger": [
+    "0.06",
+    "0.8"
+  ],
+  "AUG | Chameleon": [
+    "0.0",
+    "0.5"
+  ],
+  "AUG | Colony": [
+    "0.06",
+    "0.8"
+  ],
+  "AUG | Contractor": [
+    "0.06",
+    "0.8"
+  ],
+  "AUG | Copperhead": [
+    "0.12",
+    "0.38"
+  ],
+  "AUG | Daedalus": [
+    "0.0",
+    "0.55"
+  ],
+  "AUG | Fleet Flock": [
+    "0.0",
+    "1.0"
+  ],
+  "AUG | Radiation Hazard": [
+    "0.0",
+    "0.55"
+  ],
+  "AUG | Ricochet": [
+    "0.0",
+    "0.8"
+  ],
+  "AUG | Storm": [
+    "0.06",
+    "0.8"
+  ],
+  "AUG | Syd Mead": [
+    "0.0",
+    "0.8"
+  ],
+  "AUG | Torque": [
+    "0.0",
+    "0.5"
+  ],
+  "AUG | Triqua": [
+    "0.0",
+    "1.0"
+  ],
+  "AUG | Wings": [
+    "0.0",
+    "0.14"
+  ],
+  "AWP | Asiimov": [
+    "0.18",
+    "1.0"
+  ],
+  "AWP | BOOM": [
+    "0.06",
+    "0.28"
+  ],
+  "AWP | Corticera": [
+    "0.06",
+    "0.3"
+  ],
+  "AWP | Dragon Lore": [
+    "0.0",
+    "0.7"
+  ],
+  "AWP | Electric Hive": [
+    "0.0",
+    "0.4"
+  ],
+  "AWP | Elite Build": [
+    "0.0",
+    "1.0"
+  ],
+  "AWP | Fever Dream": [
+    "0.0",
+    "0.55"
+  ],
+  "AWP | Graphite": [
+    "0.0",
+    "0.12"
+  ],
+  "AWP | Hyper Beast": [
+    "0.0",
+    "1.0"
+  ],
+  "AWP | Lightning Strike": [
+    "0.0",
+    "0.08"
+  ],
+  "AWP | Man-o'-war": [
+    "0.1",
+    "0.2"
+  ],
+  "AWP | Medusa": [
+    "0.0",
+    "1.0"
+  ],
+  "AWP | Oni Taiji": [
+    "0.0",
+    "0.5"
+  ],
+  "AWP | Phobos": [
+    "0.0",
+    "0.4"
+  ],
+  "AWP | Pink DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "AWP | Pit Viper": [
+    "0.08",
+    "0.5"
+  ],
+  "AWP | Redline": [
+    "0.1",
+    "0.4"
+  ],
+  "AWP | Safari Mesh": [
+    "0.06",
+    "0.8"
+  ],
+  "AWP | Snake Camo": [
+    "0.06",
+    "0.8"
+  ],
+  "AWP | Sun in Leo": [
+    "0.0",
+    "0.5"
+  ],
+  "AWP | Worm God": [
+    "0.0",
+    "0.45"
+  ],
+  "CZ75-Auto | Army Sheen": [
+    "0.0",
+    "0.3"
+  ],
+  "CZ75-Auto | Chalice": [
+    "0.0",
+    "0.1"
+  ],
+  "CZ75-Auto | Crimson Web": [
+    "0.06",
+    "0.8"
+  ],
+  "CZ75-Auto | Emerald": [
+    "0.0",
+    "0.08"
+  ],
+  "CZ75-Auto | Green Plaid": [
+    "0.0",
+    "0.58"
+  ],
+  "CZ75-Auto | Hexane": [
+    "0.0",
+    "0.4"
+  ],
+  "CZ75-Auto | Imprint": [
+    "0.0",
+    "1.0"
+  ],
+  "CZ75-Auto | Nitro": [
+    "0.06",
+    "0.8"
+  ],
+  "CZ75-Auto | Poison Dart": [
+    "0.0",
+    "0.7"
+  ],
+  "CZ75-Auto | Pole Position": [
+    "0.0",
+    "0.7"
+  ],
+  "CZ75-Auto | Red Astor": [
+    "0.0",
+    "1.0"
+  ],
+  "CZ75-Auto | Tacticat": [
+    "0.0",
+    "0.7"
+  ],
+  "CZ75-Auto | The Fuschia Is Now": [
+    "0.0",
+    "0.4"
+  ],
+  "CZ75-Auto | Tigris": [
+    "0.0",
+    "1.0"
+  ],
+  "CZ75-Auto | Tread Plate": [
+    "0.0",
+    "0.2"
+  ],
+  "CZ75-Auto | Tuxedo": [
+    "0.0",
+    "0.8"
+  ],
+  "CZ75-Auto | Twist": [
+    "0.0",
+    "1.0"
+  ],
+  "CZ75-Auto | Victoria": [
+    "0.0",
+    "0.75"
+  ],
+  "CZ75-Auto | Xiangliu": [
+    "0.0",
+    "0.56"
+  ],
+  "CZ75-Auto | Yellow Jacket": [
+    "0.0",
+    "1.0"
+  ],
+  "Desert Eagle | Blaze": [
+    "0.0",
+    "0.08"
+  ],
+  "Desert Eagle | Bronze Deco": [
+    "0.0",
+    "0.46"
+  ],
+  "Desert Eagle | Cobalt Disruption": [
+    "0.0",
+    "0.2"
+  ],
+  "Desert Eagle | Conspiracy": [
+    "0.0",
+    "0.3"
+  ],
+  "Desert Eagle | Corinthian": [
+    "0.0",
+    "0.44"
+  ],
+  "Desert Eagle | Crimson Web": [
+    "0.06",
+    "0.8"
+  ],
+  "Desert Eagle | Directive": [
+    "0.06",
+    "1.0"
+  ],
+  "Desert Eagle | Golden Koi": [
+    "0.0",
+    "0.12"
+  ],
+  "Desert Eagle | Hand Cannon": [
+    "0.01",
+    "0.7"
+  ],
+  "Desert Eagle | Heirloom": [
+    "0.0",
+    "0.8"
+  ],
+  "Desert Eagle | Hypnotic": [
+    "0.0",
+    "0.08"
+  ],
+  "Desert Eagle | Kumicho Dragon": [
+    "0.0",
+    "0.76"
+  ],
+  "Desert Eagle | Meteorite": [
+    "0.0",
+    "0.18"
+  ],
+  "Desert Eagle | Midnight Storm": [
+    "0.0",
+    "0.75"
+  ],
+  "Desert Eagle | Naga": [
+    "0.0",
+    "1.0"
+  ],
+  "Desert Eagle | Night": [
+    "0.06",
+    "0.8"
+  ],
+  "Desert Eagle | Pilot": [
+    "0.0",
+    "1.0"
+  ],
+  "Desert Eagle | Sunset Storm \u58f1": [
+    "0.0",
+    "0.75"
+  ],
+  "Desert Eagle | Sunset Storm \u5f10": [
+    "0.0",
+    "0.75"
+  ],
+  "Desert Eagle | Urban DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "Dual Berettas | Anodized Navy": [
+    "0.0",
+    "0.08"
+  ],
+  "Dual Berettas | Black Limba": [
+    "0.06",
+    "0.8"
+  ],
+  "Dual Berettas | Briar": [
+    "0.0",
+    "0.22"
+  ],
+  "Dual Berettas | Cartel": [
+    "0.0",
+    "1.0"
+  ],
+  "Dual Berettas | Cobra Strike": [
+    "0.0",
+    "0.6"
+  ],
+  "Dual Berettas | Demolition": [
+    "0.26",
+    "0.6"
+  ],
+  "Dual Berettas | Dualing Dragons": [
+    "0.0",
+    "1.0"
+  ],
+  "Dual Berettas | Duelist": [
+    "0.0",
+    "1.0"
+  ],
+  "Dual Berettas | Hemoglobin": [
+    "0.0",
+    "0.2"
+  ],
+  "Dual Berettas | Marina": [
+    "0.05",
+    "0.5"
+  ],
+  "Dual Berettas | Moon in Libra": [
+    "0.0",
+    "0.5"
+  ],
+  "Dual Berettas | Panther": [
+    "0.0",
+    "0.58"
+  ],
+  "Dual Berettas | Retribution": [
+    "0.0",
+    "0.45"
+  ],
+  "Dual Berettas | Royal Consorts": [
+    "0.0",
+    "1.0"
+  ],
+  "Dual Berettas | Urban Shock": [
+    "0.0",
+    "0.47"
+  ],
+  "Dual Berettas | Ventilators": [
+    "0.0",
+    "0.45"
+  ],
+  "FAMAS | Afterimage": [
+    "0.02",
+    "0.4"
+  ],
+  "FAMAS | Colony": [
+    "0.06",
+    "0.8"
+  ],
+  "FAMAS | Contrast Spray": [
+    "0.06",
+    "0.8"
+  ],
+  "FAMAS | Cyanospatter": [
+    "0.06",
+    "0.8"
+  ],
+  "FAMAS | Djinn": [
+    "0.0",
+    "1.0"
+  ],
+  "FAMAS | Doomkitty": [
+    "0.08",
+    "0.22"
+  ],
+  "FAMAS | Hexane": [
+    "0.0",
+    "0.4"
+  ],
+  "FAMAS | Macabre": [
+    "0.0",
+    "0.6"
+  ],
+  "FAMAS | Mecha Industries": [
+    "0.0",
+    "0.5"
+  ],
+  "FAMAS | Neural Net": [
+    "0.0",
+    "0.6"
+  ],
+  "FAMAS | Pulse": [
+    "0.0",
+    "0.4"
+  ],
+  "FAMAS | Roll Cage": [
+    "0.0",
+    "1.0"
+  ],
+  "FAMAS | Sergeant": [
+    "0.1",
+    "1.0"
+  ],
+  "FAMAS | Spitfire": [
+    "0.06",
+    "0.8"
+  ],
+  "FAMAS | Styx": [
+    "0.0",
+    "0.6"
+  ],
+  "FAMAS | Survivor Z": [
+    "0.0",
+    "0.6"
+  ],
+  "FAMAS | Teardown": [
+    "0.0",
+    "0.6"
+  ],
+  "FAMAS | Valence": [
+    "0.0",
+    "0.8"
+  ],
+  "Five-SeveN | Anodized Gunmetal": [
+    "0.0",
+    "0.08"
+  ],
+  "Five-SeveN | Candy Apple": [
+    "0.0",
+    "0.3"
+  ],
+  "Five-SeveN | Capillary": [
+    "0.0",
+    "0.7"
+  ],
+  "Five-SeveN | Case Hardened": [
+    "0.0",
+    "1.0"
+  ],
+  "Five-SeveN | Contractor": [
+    "0.06",
+    "0.8"
+  ],
+  "Five-SeveN | Copper Galaxy": [
+    "0.0",
+    "0.2"
+  ],
+  "Five-SeveN | Forest Night": [
+    "0.06",
+    "0.8"
+  ],
+  "Five-SeveN | Fowl Play": [
+    "0.0",
+    "1.0"
+  ],
+  "Five-SeveN | Hot Shot": [
+    "0.0",
+    "1.0"
+  ],
+  "Five-SeveN | Hyper Beast": [
+    "0.0",
+    "1.0"
+  ],
+  "Five-SeveN | Jungle": [
+    "0.06",
+    "0.8"
+  ],
+  "Five-SeveN | Kami": [
+    "0.0",
+    "0.3"
+  ],
+  "Five-SeveN | Monkey Business": [
+    "0.1",
+    "0.9"
+  ],
+  "Five-SeveN | Neon Kimono": [
+    "0.0",
+    "0.8"
+  ],
+  "Five-SeveN | Nightshade": [
+    "0.0",
+    "0.5"
+  ],
+  "Five-SeveN | Nitro": [
+    "0.06",
+    "0.8"
+  ],
+  "Five-SeveN | Retrobution": [
+    "0.0",
+    "1.0"
+  ],
+  "Five-SeveN | Scumbria": [
+    "0.0",
+    "1.0"
+  ],
+  "Five-SeveN | Silver Quartz": [
+    "0.0",
+    "0.4"
+  ],
+  "Five-SeveN | Triumvirate": [
+    "0.0",
+    "0.61"
+  ],
+  "Five-SeveN | Urban Hazard": [
+    "0.0",
+    "0.25"
+  ],
+  "G3SG1 | Arctic Camo": [
+    "0.06",
+    "0.8"
+  ],
+  "G3SG1 | Azure Zebra": [
+    "0.0",
+    "0.28"
+  ],
+  "G3SG1 | Chronos": [
+    "0.0",
+    "0.4"
+  ],
+  "G3SG1 | Contractor": [
+    "0.06",
+    "0.8"
+  ],
+  "G3SG1 | Demeter": [
+    "0.06",
+    "0.8"
+  ],
+  "G3SG1 | Desert Storm": [
+    "0.06",
+    "0.8"
+  ],
+  "G3SG1 | Flux": [
+    "0.0",
+    "0.9"
+  ],
+  "G3SG1 | Green Apple": [
+    "0.0",
+    "0.3"
+  ],
+  "G3SG1 | Hunter": [
+    "0.0",
+    "1.0"
+  ],
+  "G3SG1 | Jungle Dashed": [
+    "0.06",
+    "0.8"
+  ],
+  "G3SG1 | Murky": [
+    "0.0",
+    "0.25"
+  ],
+  "G3SG1 | Orange Crash": [
+    "0.0",
+    "0.52"
+  ],
+  "G3SG1 | Orange Kimono": [
+    "0.0",
+    "0.8"
+  ],
+  "G3SG1 | Polar Camo": [
+    "0.06",
+    "0.8"
+  ],
+  "G3SG1 | Safari Mesh": [
+    "0.06",
+    "0.8"
+  ],
+  "G3SG1 | Stinger": [
+    "0.0",
+    "0.7"
+  ],
+  "G3SG1 | The Executioner": [
+    "0.14",
+    "0.85"
+  ],
+  "G3SG1 | VariCamo": [
+    "0.0",
+    "0.6"
+  ],
+  "G3SG1 | Ventilator": [
+    "0.0",
+    "0.45"
+  ],
+  "Galil AR | Aqua Terrace": [
+    "0.0",
+    "0.7"
+  ],
+  "Galil AR | Black Sand": [
+    "0.0",
+    "1.0"
+  ],
+  "Galil AR | Blue Titanium": [
+    "0.0",
+    "0.04"
+  ],
+  "Galil AR | Cerberus": [
+    "0.0",
+    "0.9"
+  ],
+  "Galil AR | Chatterbox": [
+    "0.35",
+    "0.85"
+  ],
+  "Galil AR | Crimson Tsunami": [
+    "0.0",
+    "0.55"
+  ],
+  "Galil AR | Eco": [
+    "0.1",
+    "0.85"
+  ],
+  "Galil AR | Firefight": [
+    "0.0",
+    "1.0"
+  ],
+  "Galil AR | Hunting Blind": [
+    "0.0",
+    "0.6"
+  ],
+  "Galil AR | Kami": [
+    "0.0",
+    "0.6"
+  ],
+  "Galil AR | Orange DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "Galil AR | Rocket Pop": [
+    "0.0",
+    "1.0"
+  ],
+  "Galil AR | Sage Spray": [
+    "0.06",
+    "0.8"
+  ],
+  "Galil AR | Sandstorm": [
+    "0.1",
+    "0.6"
+  ],
+  "Galil AR | Shattered": [
+    "0.06",
+    "0.8"
+  ],
+  "Galil AR | Stone Cold": [
+    "0.0",
+    "0.9"
+  ],
+  "Galil AR | Sugar Rush": [
+    "0.0",
+    "0.55"
+  ],
+  "Galil AR | Tuxedo": [
+    "0.0",
+    "0.8"
+  ],
+  "Galil AR | Urban Rubble": [
+    "0.0",
+    "0.5"
+  ],
+  "Galil AR | VariCamo": [
+    "0.0",
+    "0.6"
+  ],
+  "Galil AR | Winter Forest": [
+    "0.06",
+    "0.8"
+  ],
+  "Glock-18 | Blue Fissure": [
+    "0.06",
+    "0.58"
+  ],
+  "Glock-18 | Brass": [
+    "0.0",
+    "1.0"
+  ],
+  "Glock-18 | Candy Apple": [
+    "0.0",
+    "0.3"
+  ],
+  "Glock-18 | Catacombs": [
+    "0.0",
+    "0.5"
+  ],
+  "Glock-18 | Death Rattle": [
+    "0.08",
+    "0.5"
+  ],
+  "Glock-18 | Dragon Tattoo": [
+    "0.0",
+    "0.08"
+  ],
+  "Glock-18 | Grinder": [
+    "0.02",
+    "0.25"
+  ],
+  "Glock-18 | Groundwater": [
+    "0.06",
+    "0.8"
+  ],
+  "Glock-18 | Ironwork": [
+    "0.0",
+    "1.0"
+  ],
+  "Glock-18 | Night": [
+    "0.06",
+    "0.8"
+  ],
+  "Glock-18 | Off World": [
+    "0.0",
+    "1.0"
+  ],
+  "Glock-18 | Reactor": [
+    "0.0",
+    "1.0"
+  ],
+  "Glock-18 | Royal Legion": [
+    "0.0",
+    "1.0"
+  ],
+  "Glock-18 | Sand Dune": [
+    "0.06",
+    "0.8"
+  ],
+  "Glock-18 | Steel Disruption": [
+    "0.0",
+    "0.2"
+  ],
+  "Glock-18 | Twilight Galaxy": [
+    "0.0",
+    "0.2"
+  ],
+  "Glock-18 | Wasteland Rebel": [
+    "0.0",
+    "0.54"
+  ],
+  "Glock-18 | Water Elemental": [
+    "0.0",
+    "0.7"
+  ],
+  "Glock-18 | Weasel": [
+    "0.0",
+    "1.0"
+  ],
+  "Glock-18 | Wraiths": [
+    "0.0",
+    "0.8"
+  ],
+  "M249 | Blizzard Marbleized": [
+    "0.06",
+    "0.8"
+  ],
+  "M249 | Contrast Spray": [
+    "0.06",
+    "0.8"
+  ],
+  "M249 | Emerald Poison Dart": [
+    "0.0",
+    "0.45"
+  ],
+  "M249 | Gator Mesh": [
+    "0.0",
+    "0.6"
+  ],
+  "M249 | Impact Drill": [
+    "0.0",
+    "1.0"
+  ],
+  "M249 | Jungle DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "M249 | Magma": [
+    "0.0",
+    "0.7"
+  ],
+  "M249 | Nebula Crusader": [
+    "0.0",
+    "1.0"
+  ],
+  "M249 | Shipping Forecast": [
+    "0.0",
+    "0.5"
+  ],
+  "M249 | Spectre": [
+    "0.0",
+    "0.5"
+  ],
+  "M4A1-S | Atomic Alloy": [
+    "0.0",
+    "0.9"
+  ],
+  "M4A1-S | Basilisk": [
+    "0.0",
+    "0.68"
+  ],
+  "M4A1-S | Blood Tiger": [
+    "0.0",
+    "0.3"
+  ],
+  "M4A1-S | Boreal Forest": [
+    "0.06",
+    "0.8"
+  ],
+  "M4A1-S | Briefing": [
+    "0.0",
+    "0.8"
+  ],
+  "M4A1-S | Bright Water": [
+    "0.1",
+    "0.22"
+  ],
+  "M4A1-S | Chantico's Fire": [
+    "0.0",
+    "0.99"
+  ],
+  "M4A1-S | Cyrex": [
+    "0.0",
+    "0.5"
+  ],
+  "M4A1-S | Dark Water": [
+    "0.1",
+    "0.26"
+  ],
+  "M4A1-S | Decimator": [
+    "0.0",
+    "0.85"
+  ],
+  "M4A1-S | Flashback": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A1-S | Golden Coil": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A1-S | Guardian": [
+    "0.0",
+    "0.5"
+  ],
+  "M4A1-S | Hot Rod": [
+    "0.0",
+    "0.08"
+  ],
+  "M4A1-S | Hyper Beast": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A1-S | Icarus Fell": [
+    "0.0",
+    "0.1"
+  ],
+  "M4A1-S | Knight": [
+    "0.0",
+    "0.1"
+  ],
+  "M4A1-S | Leaded Glass": [
+    "0.0",
+    "0.7"
+  ],
+  "M4A1-S | Master Piece": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A1-S | Mecha Industries": [
+    "0.0",
+    "0.8"
+  ],
+  "M4A1-S | Nitro": [
+    "0.06",
+    "0.8"
+  ],
+  "M4A1-S | VariCamo": [
+    "0.0",
+    "0.6"
+  ],
+  "M4A4 | Asiimov": [
+    "0.18",
+    "1.0"
+  ],
+  "M4A4 | Bullet Rain": [
+    "0.02",
+    "0.46"
+  ],
+  "M4A4 | Buzz Kill": [
+    "0.0",
+    "0.7"
+  ],
+  "M4A4 | Daybreak": [
+    "0.0",
+    "0.6"
+  ],
+  "M4A4 | Desert Storm": [
+    "0.06",
+    "0.8"
+  ],
+  "M4A4 | Desert-Strike": [
+    "0.0",
+    "0.7"
+  ],
+  "M4A4 | Desolate Space": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A4 | Faded Zebra": [
+    "0.06",
+    "0.8"
+  ],
+  "M4A4 | Griffin": [
+    "0.0",
+    "0.8"
+  ],
+  "M4A4 | Hellfire": [
+    "0.0",
+    "0.5"
+  ],
+  "M4A4 | Howl": [
+    "0.0",
+    "0.4"
+  ],
+  "M4A4 | Jungle Tiger": [
+    "0.06",
+    "0.8"
+  ],
+  "M4A4 | Modern Hunter": [
+    "0.06",
+    "0.8"
+  ],
+  "M4A4 | Poseidon": [
+    "0.0",
+    "0.33"
+  ],
+  "M4A4 | Radiation Hazard": [
+    "0.06",
+    "0.8"
+  ],
+  "M4A4 | Royal Paladin": [
+    "0.0",
+    "0.8"
+  ],
+  "M4A4 | The Battlestar": [
+    "0.0",
+    "0.64"
+  ],
+  "M4A4 | Tornado": [
+    "0.06",
+    "0.8"
+  ],
+  "M4A4 | Urban DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "M4A4 | X-Ray": [
+    "0.0",
+    "0.3"
+  ],
+  "M4A4 | Zirka": [
+    "0.06",
+    "0.42"
+  ],
+  "MAC-10 | Aloha": [
+    "0.0",
+    "0.65"
+  ],
+  "MAC-10 | Amber Fade": [
+    "0.0",
+    "0.4"
+  ],
+  "MAC-10 | Carnivore": [
+    "0.0",
+    "1.0"
+  ],
+  "MAC-10 | Commuter": [
+    "0.0",
+    "1.0"
+  ],
+  "MAC-10 | Curse": [
+    "0.0",
+    "0.5"
+  ],
+  "MAC-10 | Fade": [
+    "0.0",
+    "0.08"
+  ],
+  "MAC-10 | Graven": [
+    "0.06",
+    "0.8"
+  ],
+  "MAC-10 | Heat": [
+    "0.0",
+    "1.0"
+  ],
+  "MAC-10 | Indigo": [
+    "0.06",
+    "0.8"
+  ],
+  "MAC-10 | Last Dive": [
+    "0.0",
+    "0.52"
+  ],
+  "MAC-10 | Malachite": [
+    "0.0",
+    "0.5"
+  ],
+  "MAC-10 | Neon Rider": [
+    "0.0",
+    "0.45"
+  ],
+  "MAC-10 | Nuclear Garden": [
+    "0.0",
+    "0.7"
+  ],
+  "MAC-10 | Oceanic": [
+    "0.0",
+    "0.6"
+  ],
+  "MAC-10 | Palm": [
+    "0.06",
+    "0.8"
+  ],
+  "MAC-10 | Rangeen": [
+    "0.0",
+    "0.5"
+  ],
+  "MAC-10 | Tatter": [
+    "0.0",
+    "0.5"
+  ],
+  "MAC-10 | Tornado": [
+    "0.06",
+    "0.8"
+  ],
+  "MAC-10 | Ultraviolet": [
+    "0.06",
+    "0.8"
+  ],
+  "MAC-10 | Urban DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "MAG-7 | Bulldozer": [
+    "0.06",
+    "0.8"
+  ],
+  "MAG-7 | Cobalt Core": [
+    "0.0",
+    "0.5"
+  ],
+  "MAG-7 | Counter Terrace": [
+    "0.0",
+    "0.65"
+  ],
+  "MAG-7 | Firestarter": [
+    "0.06",
+    "0.49"
+  ],
+  "MAG-7 | Hard Water": [
+    "0.0",
+    "0.45"
+  ],
+  "MAG-7 | Hazard": [
+    "0.06",
+    "0.8"
+  ],
+  "MAG-7 | Heat": [
+    "0.0",
+    "1.0"
+  ],
+  "MAG-7 | Heaven Guard": [
+    "0.0",
+    "0.4"
+  ],
+  "MAG-7 | Irradiated Alert": [
+    "0.06",
+    "0.8"
+  ],
+  "MAG-7 | Memento": [
+    "0.02",
+    "0.18"
+  ],
+  "MAG-7 | Metallic DDPAT": [
+    "0.0",
+    "0.08"
+  ],
+  "MAG-7 | Petroglyph": [
+    "0.0",
+    "0.44"
+  ],
+  "MAG-7 | Praetorian": [
+    "0.0",
+    "0.45"
+  ],
+  "MAG-7 | Sand Dune": [
+    "0.06",
+    "0.8"
+  ],
+  "MAG-7 | Seabird": [
+    "0.0",
+    "1.0"
+  ],
+  "MAG-7 | Silver": [
+    "0.0",
+    "0.08"
+  ],
+  "MAG-7 | Sonar": [
+    "0.0",
+    "0.45"
+  ],
+  "MAG-7 | Storm": [
+    "0.06",
+    "0.8"
+  ],
+  "MP7 | Akoben": [
+    "0.0",
+    "0.7"
+  ],
+  "MP7 | Anodized Navy": [
+    "0.0",
+    "0.08"
+  ],
+  "MP7 | Armor Core": [
+    "0.0",
+    "0.5"
+  ],
+  "MP7 | Army Recon": [
+    "0.06",
+    "0.8"
+  ],
+  "MP7 | Forest DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "MP7 | Full Stop": [
+    "0.0",
+    "0.6"
+  ],
+  "MP7 | Groundwater": [
+    "0.06",
+    "0.8"
+  ],
+  "MP7 | Gunsmoke": [
+    "0.06",
+    "0.8"
+  ],
+  "MP7 | Impire": [
+    "0.0",
+    "0.4"
+  ],
+  "MP7 | Nemesis": [
+    "0.0",
+    "0.32"
+  ],
+  "MP7 | Ocean Foam": [
+    "0.0",
+    "0.08"
+  ],
+  "MP7 | Olive Plaid": [
+    "0.0",
+    "0.58"
+  ],
+  "MP7 | Orange Peel": [
+    "0.06",
+    "0.8"
+  ],
+  "MP7 | Skulls": [
+    "0.1",
+    "0.26"
+  ],
+  "MP7 | Special Delivery": [
+    "0.0",
+    "0.62"
+  ],
+  "MP7 | Whiteout": [
+    "0.06",
+    "0.8"
+  ],
+  "MP9 | Airlock": [
+    "0.0",
+    "1.0"
+  ],
+  "MP9 | Bulldozer": [
+    "0.06",
+    "0.8"
+  ],
+  "MP9 | Dark Age": [
+    "0.0",
+    "0.22"
+  ],
+  "MP9 | Dart": [
+    "0.0",
+    "0.46"
+  ],
+  "MP9 | Deadly Poison": [
+    "0.0",
+    "1.0"
+  ],
+  "MP9 | Dry Season": [
+    "0.06",
+    "0.8"
+  ],
+  "MP9 | Goo": [
+    "0.0",
+    "0.6"
+  ],
+  "MP9 | Green Plaid": [
+    "0.0",
+    "0.58"
+  ],
+  "MP9 | Hot Rod": [
+    "0.0",
+    "0.08"
+  ],
+  "MP9 | Hypnotic": [
+    "0.0",
+    "0.08"
+  ],
+  "MP9 | Orange Peel": [
+    "0.06",
+    "0.8"
+  ],
+  "MP9 | Pandora's Box": [
+    "0.0",
+    "0.3"
+  ],
+  "MP9 | Rose Iron": [
+    "0.0",
+    "0.3"
+  ],
+  "MP9 | Ruby Poison Dart": [
+    "0.0",
+    "0.5"
+  ],
+  "MP9 | Sand Dashed": [
+    "0.06",
+    "0.8"
+  ],
+  "MP9 | Setting Sun": [
+    "0.0",
+    "1.0"
+  ],
+  "MP9 | Storm": [
+    "0.06",
+    "0.8"
+  ],
+  "Negev | Anodized Navy": [
+    "0.0",
+    "0.08"
+  ],
+  "Negev | Army Sheen": [
+    "0.0",
+    "0.3"
+  ],
+  "Negev | Bratatat": [
+    "0.0",
+    "1.0"
+  ],
+  "Negev | CaliCamo": [
+    "0.0",
+    "0.6"
+  ],
+  "Negev | Dazzle": [
+    "0.1",
+    "0.65"
+  ],
+  "Negev | Desert-Strike": [
+    "0.0",
+    "0.5"
+  ],
+  "Negev | Loudmouth": [
+    "0.14",
+    "0.65"
+  ],
+  "Negev | Man-o'-war": [
+    "0.1",
+    "0.2"
+  ],
+  "Negev | Nuclear Waste": [
+    "0.0",
+    "0.4"
+  ],
+  "Negev | Palm": [
+    "0.06",
+    "0.8"
+  ],
+  "Negev | Power Loader": [
+    "0.0",
+    "1.0"
+  ],
+  "Negev | Terrain": [
+    "0.0",
+    "0.45"
+  ],
+  "Nova | Antique": [
+    "0.0",
+    "0.3"
+  ],
+  "Nova | Blaze Orange": [
+    "0.06",
+    "0.8"
+  ],
+  "Nova | Bloomstick": [
+    "0.06",
+    "0.8"
+  ],
+  "Nova | Caged Steel": [
+    "0.0",
+    "0.2"
+  ],
+  "Nova | Candy Apple": [
+    "0.0",
+    "0.3"
+  ],
+  "Nova | Exo": [
+    "0.0",
+    "0.5"
+  ],
+  "Nova | Forest Leaves": [
+    "0.06",
+    "0.8"
+  ],
+  "Nova | Ghost Camo": [
+    "0.0",
+    "0.4"
+  ],
+  "Nova | Gila": [
+    "0.0",
+    "0.3"
+  ],
+  "Nova | Graphite": [
+    "0.0",
+    "0.12"
+  ],
+  "Nova | Green Apple": [
+    "0.0",
+    "0.3"
+  ],
+  "Nova | Hyper Beast": [
+    "0.0",
+    "0.6"
+  ],
+  "Nova | Koi": [
+    "0.0",
+    "0.3"
+  ],
+  "Nova | Modern Hunter": [
+    "0.06",
+    "0.8"
+  ],
+  "Nova | Moon in Libra": [
+    "0.0",
+    "0.5"
+  ],
+  "Nova | Polar Mesh": [
+    "0.06",
+    "0.8"
+  ],
+  "Nova | Predator": [
+    "0.06",
+    "0.8"
+  ],
+  "Nova | Ranger": [
+    "0.0",
+    "1.0"
+  ],
+  "Nova | Rising Skull": [
+    "0.0",
+    "0.5"
+  ],
+  "Nova | Tempest": [
+    "0.06",
+    "0.22"
+  ],
+  "Nova | Walnut": [
+    "0.06",
+    "0.8"
+  ],
+  "P2000 | Amber Fade": [
+    "0.0",
+    "0.4"
+  ],
+  "P2000 | Chainmail": [
+    "0.0",
+    "0.22"
+  ],
+  "P2000 | Coach Class": [
+    "0.0",
+    "1.0"
+  ],
+  "P2000 | Corticera": [
+    "0.06",
+    "0.3"
+  ],
+  "P2000 | Fire Elemental": [
+    "0.0",
+    "0.6"
+  ],
+  "P2000 | Granite Marbleized": [
+    "0.06",
+    "0.8"
+  ],
+  "P2000 | Grassland": [
+    "0.06",
+    "0.8"
+  ],
+  "P2000 | Grassland Leaves": [
+    "0.06",
+    "0.8"
+  ],
+  "P2000 | Handgun": [
+    "0.0",
+    "1.0"
+  ],
+  "P2000 | Imperial": [
+    "0.0",
+    "0.2"
+  ],
+  "P2000 | Imperial Dragon": [
+    "0.0",
+    "0.63"
+  ],
+  "P2000 | Ivory": [
+    "0.0",
+    "1.0"
+  ],
+  "P2000 | Ocean Foam": [
+    "0.0",
+    "0.12"
+  ],
+  "P2000 | Oceanic": [
+    "0.0",
+    "0.6"
+  ],
+  "P2000 | Pathfinder": [
+    "0.0",
+    "0.35"
+  ],
+  "P2000 | Pulse": [
+    "0.0",
+    "0.6"
+  ],
+  "P2000 | Red FragCam": [
+    "0.0",
+    "0.7"
+  ],
+  "P2000 | Scorpion": [
+    "0.0",
+    "0.08"
+  ],
+  "P2000 | Silver": [
+    "0.0",
+    "0.08"
+  ],
+  "P2000 | Woodsman": [
+    "0.0",
+    "0.8"
+  ],
+  "P250 | Asiimov": [
+    "0.1",
+    "1.0"
+  ],
+  "P250 | Bone Mask": [
+    "0.06",
+    "0.8"
+  ],
+  "P250 | Cartel": [
+    "0.0",
+    "0.75"
+  ],
+  "P250 | Contamination": [
+    "0.0",
+    "0.83"
+  ],
+  "P250 | Crimson Kimono": [
+    "0.0",
+    "0.8"
+  ],
+  "P250 | Facets": [
+    "0.06",
+    "0.8"
+  ],
+  "P250 | Franklin": [
+    "0.0",
+    "0.4"
+  ],
+  "P250 | Gunsmoke": [
+    "0.06",
+    "0.8"
+  ],
+  "P250 | Hive": [
+    "0.0",
+    "0.3"
+  ],
+  "P250 | Iron Clad": [
+    "0.05",
+    "0.8"
+  ],
+  "P250 | Mehndi": [
+    "0.0",
+    "1.0"
+  ],
+  "P250 | Metallic DDPAT": [
+    "0.0",
+    "0.08"
+  ],
+  "P250 | Mint Kimono": [
+    "0.0",
+    "0.8"
+  ],
+  "P250 | Modern Hunter": [
+    "0.06",
+    "0.8"
+  ],
+  "P250 | Muertos": [
+    "0.0",
+    "0.6"
+  ],
+  "P250 | Nuclear Threat": [
+    "0.06",
+    "0.8"
+  ],
+  "P250 | Red Rock": [
+    "0.0",
+    "1.0"
+  ],
+  "P250 | Ripple": [
+    "0.0",
+    "0.5"
+  ],
+  "P250 | Sand Dune": [
+    "0.06",
+    "0.8"
+  ],
+  "P250 | See Ya Later": [
+    "0.0",
+    "0.7"
+  ],
+  "P250 | Splash": [
+    "0.06",
+    "0.18"
+  ],
+  "P250 | Steel Disruption": [
+    "0.0",
+    "0.2"
+  ],
+  "P250 | Supernova": [
+    "0.0",
+    "0.4"
+  ],
+  "P250 | Undertow": [
+    "0.0",
+    "0.2"
+  ],
+  "P250 | Valence": [
+    "0.0",
+    "0.8"
+  ],
+  "P250 | Whiteout": [
+    "0.06",
+    "0.8"
+  ],
+  "P250 | Wingshot": [
+    "0.0",
+    "0.9"
+  ],
+  "P90 | Ash Wood": [
+    "0.0",
+    "0.45"
+  ],
+  "P90 | Asiimov": [
+    "0.0",
+    "0.92"
+  ],
+  "P90 | Blind Spot": [
+    "0.0",
+    "0.5"
+  ],
+  "P90 | Chopper": [
+    "0.0",
+    "0.6"
+  ],
+  "P90 | Cold Blooded": [
+    "0.0",
+    "0.08"
+  ],
+  "P90 | Death Grip": [
+    "0.0",
+    "1.0"
+  ],
+  "P90 | Death by Kitty": [
+    "0.08",
+    "0.32"
+  ],
+  "P90 | Desert Warfare": [
+    "0.0",
+    "0.5"
+  ],
+  "P90 | Elite Build": [
+    "0.0",
+    "1.0"
+  ],
+  "P90 | Emerald Dragon": [
+    "0.06",
+    "0.52"
+  ],
+  "P90 | Fallout Warning": [
+    "0.06",
+    "0.8"
+  ],
+  "P90 | Glacier Mesh": [
+    "0.06",
+    "0.8"
+  ],
+  "P90 | Grim": [
+    "0.0",
+    "0.8"
+  ],
+  "P90 | Leather": [
+    "0.0",
+    "1.0"
+  ],
+  "P90 | Module": [
+    "0.0",
+    "0.35"
+  ],
+  "P90 | Sand Spray": [
+    "0.06",
+    "0.8"
+  ],
+  "P90 | Scorched": [
+    "0.06",
+    "0.8"
+  ],
+  "P90 | Shallow Grave": [
+    "0.0",
+    "0.75"
+  ],
+  "P90 | Shapewood": [
+    "0.0",
+    "1.0"
+  ],
+  "P90 | Storm": [
+    "0.06",
+    "0.8"
+  ],
+  "P90 | Teardown": [
+    "0.0",
+    "0.6"
+  ],
+  "P90 | Trigon": [
+    "0.08",
+    "0.75"
+  ],
+  "P90 | Virus": [
+    "0.06",
+    "0.8"
+  ],
+  "PP-Bizon | Antique": [
+    "0.0",
+    "0.5"
+  ],
+  "PP-Bizon | Bamboo Print": [
+    "0.0",
+    "0.8"
+  ],
+  "PP-Bizon | Blue Streak": [
+    "0.06",
+    "0.8"
+  ],
+  "PP-Bizon | Brass": [
+    "0.0",
+    "1.0"
+  ],
+  "PP-Bizon | Carbon Fiber": [
+    "0.0",
+    "0.12"
+  ],
+  "PP-Bizon | Chemical Green": [
+    "0.0",
+    "0.9"
+  ],
+  "PP-Bizon | Cobalt Halftone": [
+    "0.05",
+    "0.45"
+  ],
+  "PP-Bizon | Forest Leaves": [
+    "0.06",
+    "0.8"
+  ],
+  "PP-Bizon | Fuel Rod": [
+    "0.0",
+    "1.0"
+  ],
+  "PP-Bizon | Harvester": [
+    "0.0",
+    "1.0"
+  ],
+  "PP-Bizon | High Roller": [
+    "0.0",
+    "1.0"
+  ],
+  "PP-Bizon | Irradiated Alert": [
+    "0.06",
+    "0.8"
+  ],
+  "PP-Bizon | Judgement of Anubis": [
+    "0.0",
+    "0.5"
+  ],
+  "PP-Bizon | Jungle Slipstream": [
+    "0.0",
+    "0.5"
+  ],
+  "PP-Bizon | Modern Hunter": [
+    "0.06",
+    "0.8"
+  ],
+  "PP-Bizon | Night Ops": [
+    "0.0",
+    "0.6"
+  ],
+  "PP-Bizon | Osiris": [
+    "0.0",
+    "0.5"
+  ],
+  "PP-Bizon | Photic Zone": [
+    "0.0",
+    "1.0"
+  ],
+  "PP-Bizon | Rust Coat": [
+    "0.0",
+    "1.0"
+  ],
+  "PP-Bizon | Sand Dashed": [
+    "0.06",
+    "0.8"
+  ],
+  "PP-Bizon | Urban Dashed": [
+    "0.06",
+    "0.8"
+  ],
+  "PP-Bizon | Water Sigil": [
+    "0.0",
+    "0.5"
+  ],
+  "R8 Revolver | Amber Fade": [
+    "0.0",
+    "0.4"
+  ],
+  "R8 Revolver | Bone Mask": [
+    "0.06",
+    "0.8"
+  ],
+  "R8 Revolver | Crimson Web": [
+    "0.06",
+    "0.8"
+  ],
+  "R8 Revolver | Fade": [
+    "0.0",
+    "0.4"
+  ],
+  "R8 Revolver | Llama Cannon": [
+    "0.03",
+    "0.7"
+  ],
+  "R8 Revolver | Reboot": [
+    "0.0",
+    "1.0"
+  ],
+  "SCAR-20 | Army Sheen": [
+    "0.0",
+    "0.3"
+  ],
+  "SCAR-20 | Bloodsport": [
+    "0.0",
+    "0.45"
+  ],
+  "SCAR-20 | Blueprint": [
+    "0.0",
+    "0.75"
+  ],
+  "SCAR-20 | Carbon Fiber": [
+    "0.0",
+    "0.12"
+  ],
+  "SCAR-20 | Cardiac": [
+    "0.0",
+    "1.0"
+  ],
+  "SCAR-20 | Contractor": [
+    "0.06",
+    "0.8"
+  ],
+  "SCAR-20 | Crimson Web": [
+    "0.06",
+    "0.8"
+  ],
+  "SCAR-20 | Cyrex": [
+    "0.0",
+    "0.5"
+  ],
+  "SCAR-20 | Emerald": [
+    "0.0",
+    "0.08"
+  ],
+  "SCAR-20 | Green Marine": [
+    "0.0",
+    "0.8"
+  ],
+  "SCAR-20 | Grotto": [
+    "0.0",
+    "0.5"
+  ],
+  "SCAR-20 | Jungle Slipstream": [
+    "0.0",
+    "0.5"
+  ],
+  "SCAR-20 | Outbreak": [
+    "0.0",
+    "0.5"
+  ],
+  "SCAR-20 | Palm": [
+    "0.06",
+    "0.8"
+  ],
+  "SCAR-20 | Powercore": [
+    "0.0",
+    "1.0"
+  ],
+  "SCAR-20 | Sand Mesh": [
+    "0.06",
+    "0.8"
+  ],
+  "SCAR-20 | Splash Jam": [
+    "0.06",
+    "0.8"
+  ],
+  "SCAR-20 | Storm": [
+    "0.06",
+    "0.8"
+  ],
+  "SG 553 | Aerial": [
+    "0.0",
+    "0.6"
+  ],
+  "SG 553 | Anodized Navy": [
+    "0.0",
+    "0.08"
+  ],
+  "SG 553 | Army Sheen": [
+    "0.0",
+    "0.3"
+  ],
+  "SG 553 | Atlas": [
+    "0.0",
+    "0.81"
+  ],
+  "SG 553 | Bulldozer": [
+    "0.06",
+    "0.8"
+  ],
+  "SG 553 | Cyrex": [
+    "0.0",
+    "1.0"
+  ],
+  "SG 553 | Damascus Steel": [
+    "0.0",
+    "1.0"
+  ],
+  "SG 553 | Fallout Warning": [
+    "0.0",
+    "0.8"
+  ],
+  "SG 553 | Gator Mesh": [
+    "0.0",
+    "0.6"
+  ],
+  "SG 553 | Phantom": [
+    "0.0",
+    "0.6"
+  ],
+  "SG 553 | Pulse": [
+    "0.1",
+    "0.6"
+  ],
+  "SG 553 | Tiger Moth": [
+    "0.0",
+    "1.0"
+  ],
+  "SG 553 | Tornado": [
+    "0.06",
+    "0.8"
+  ],
+  "SG 553 | Traveler": [
+    "0.0",
+    "1.0"
+  ],
+  "SG 553 | Triarch": [
+    "0.0",
+    "1.0"
+  ],
+  "SG 553 | Ultraviolet": [
+    "0.06",
+    "0.8"
+  ],
+  "SG 553 | Wave Spray": [
+    "0.06",
+    "0.8"
+  ],
+  "SG 553 | Waves Perforated": [
+    "0.06",
+    "0.8"
+  ],
+  "SSG 08 | Abyss": [
+    "0.0",
+    "1.0"
+  ],
+  "SSG 08 | Acid Fade": [
+    "0.0",
+    "0.03"
+  ],
+  "SSG 08 | Big Iron": [
+    "0.0",
+    "0.64"
+  ],
+  "SSG 08 | Blood in the Water": [
+    "0.06",
+    "0.2"
+  ],
+  "SSG 08 | Blue Spruce": [
+    "0.06",
+    "0.8"
+  ],
+  "SSG 08 | Dark Water": [
+    "0.1",
+    "0.26"
+  ],
+  "SSG 08 | Death's Head": [
+    "0.0",
+    "0.51"
+  ],
+  "SSG 08 | Detour": [
+    "0.0",
+    "0.43"
+  ],
+  "SSG 08 | Dragonfire": [
+    "0.0",
+    "0.5"
+  ],
+  "SSG 08 | Ghost Crusader": [
+    "0.0",
+    "1.0"
+  ],
+  "SSG 08 | Lichen Dashed": [
+    "0.06",
+    "0.8"
+  ],
+  "SSG 08 | Mayan Dreams": [
+    "0.06",
+    "0.8"
+  ],
+  "SSG 08 | Necropos": [
+    "0.0",
+    "1.0"
+  ],
+  "SSG 08 | Sand Dune": [
+    "0.06",
+    "0.8"
+  ],
+  "SSG 08 | Slashed": [
+    "0.15",
+    "0.8"
+  ],
+  "SSG 08 | Tropical Storm": [
+    "0.06",
+    "0.8"
+  ],
+  "Sawed-Off | Amber Fade": [
+    "0.0",
+    "0.4"
+  ],
+  "Sawed-Off | Bamboo Shadow": [
+    "0.0",
+    "0.6"
+  ],
+  "Sawed-Off | Copper": [
+    "0.0",
+    "1.0"
+  ],
+  "Sawed-Off | First Class": [
+    "0.0",
+    "0.5"
+  ],
+  "Sawed-Off | Forest DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "Sawed-Off | Fubar": [
+    "0.4",
+    "1.0"
+  ],
+  "Sawed-Off | Full Stop": [
+    "0.0",
+    "0.6"
+  ],
+  "Sawed-Off | Highwayman": [
+    "0.0",
+    "1.0"
+  ],
+  "Sawed-Off | Irradiated Alert": [
+    "0.06",
+    "0.8"
+  ],
+  "Sawed-Off | Limelight": [
+    "0.0",
+    "1.0"
+  ],
+  "Sawed-Off | Morris": [
+    "0.0",
+    "1.0"
+  ],
+  "Sawed-Off | Mosaico": [
+    "0.06",
+    "0.8"
+  ],
+  "Sawed-Off | Orange DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "Sawed-Off | Origami": [
+    "0.0",
+    "0.55"
+  ],
+  "Sawed-Off | Rust Coat": [
+    "0.0",
+    "0.8"
+  ],
+  "Sawed-Off | Sage Spray": [
+    "0.06",
+    "0.8"
+  ],
+  "Sawed-Off | Serenity": [
+    "0.0",
+    "0.5"
+  ],
+  "Sawed-Off | Snake Camo": [
+    "0.06",
+    "0.8"
+  ],
+  "Sawed-Off | The Kraken": [
+    "0.0",
+    "0.4"
+  ],
+  "Sawed-Off | Wasteland Princess": [
+    "0.0",
+    "0.7"
+  ],
+  "Sawed-Off | Yorick": [
+    "0.0",
+    "1.0"
+  ],
+  "Sawed-Off | Zander": [
+    "0.05",
+    "1.0"
+  ],
+  "Tec-9 | Army Mesh": [
+    "0.0",
+    "0.6"
+  ],
+  "Tec-9 | Avalanche": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Bamboo Forest": [
+    "0.0",
+    "0.6"
+  ],
+  "Tec-9 | Blue Titanium": [
+    "0.0",
+    "0.04"
+  ],
+  "Tec-9 | Brass": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Cracked Opal": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Cut Out": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Fuel Injector": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Groundwater": [
+    "0.06",
+    "0.8"
+  ],
+  "Tec-9 | Hades": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Isaac": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Jambiya": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Nuclear Threat": [
+    "0.06",
+    "0.8"
+  ],
+  "Tec-9 | Ossified": [
+    "0.0",
+    "0.08"
+  ],
+  "Tec-9 | Re-Entry": [
+    "0.0",
+    "0.43"
+  ],
+  "Tec-9 | Red Quartz": [
+    "0.0",
+    "0.4"
+  ],
+  "Tec-9 | Sandstorm": [
+    "0.1",
+    "0.7"
+  ],
+  "Tec-9 | Terrace": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Titanium Bit": [
+    "0.0",
+    "0.2"
+  ],
+  "Tec-9 | Tornado": [
+    "0.06",
+    "0.8"
+  ],
+  "Tec-9 | Toxic": [
+    "0.0",
+    "0.7"
+  ],
+  "Tec-9 | Urban DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "Tec-9 | VariCamo": [
+    "0.0",
+    "0.6"
+  ],
+  "UMP-45 | Blaze": [
+    "0.0",
+    "0.08"
+  ],
+  "UMP-45 | Bone Pile": [
+    "0.06",
+    "0.34"
+  ],
+  "UMP-45 | Briefing": [
+    "0.0",
+    "1.0"
+  ],
+  "UMP-45 | Carbon Fiber": [
+    "0.0",
+    "0.12"
+  ],
+  "UMP-45 | Corporal": [
+    "0.05",
+    "0.75"
+  ],
+  "UMP-45 | Delusion": [
+    "0.06",
+    "0.35"
+  ],
+  "UMP-45 | Exposure": [
+    "0.0",
+    "0.55"
+  ],
+  "UMP-45 | Fallout Warning": [
+    "0.06",
+    "0.8"
+  ],
+  "UMP-45 | Grand Prix": [
+    "0.25",
+    "0.35"
+  ],
+  "UMP-45 | Gunsmoke": [
+    "0.06",
+    "0.8"
+  ],
+  "UMP-45 | Indigo": [
+    "0.06",
+    "0.8"
+  ],
+  "UMP-45 | Labyrinth": [
+    "0.0",
+    "0.4"
+  ],
+  "UMP-45 | Metal Flowers": [
+    "0.0",
+    "0.7"
+  ],
+  "UMP-45 | Minotaur's Labyrinth": [
+    "0.0",
+    "0.39"
+  ],
+  "UMP-45 | Primal Saber": [
+    "0.0",
+    "0.77"
+  ],
+  "UMP-45 | Riot": [
+    "0.0",
+    "0.7"
+  ],
+  "UMP-45 | Scaffold": [
+    "0.0",
+    "1.0"
+  ],
+  "UMP-45 | Scorched": [
+    "0.06",
+    "0.8"
+  ],
+  "UMP-45 | Urban DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "USP-S | Blood Tiger": [
+    "0.0",
+    "0.3"
+  ],
+  "USP-S | Blueprint": [
+    "0.0",
+    "0.86"
+  ],
+  "USP-S | Business Class": [
+    "0.0",
+    "1.0"
+  ],
+  "USP-S | Caiman": [
+    "0.0",
+    "0.4"
+  ],
+  "USP-S | Cyrex": [
+    "0.0",
+    "0.55"
+  ],
+  "USP-S | Dark Water": [
+    "0.1",
+    "0.26"
+  ],
+  "USP-S | Forest Leaves": [
+    "0.06",
+    "0.8"
+  ],
+  "USP-S | Guardian": [
+    "0.0",
+    "0.38"
+  ],
+  "USP-S | Kill Confirmed": [
+    "0.0",
+    "1.0"
+  ],
+  "USP-S | Lead Conduit": [
+    "0.0",
+    "1.0"
+  ],
+  "USP-S | Neo-Noir": [
+    "0.0",
+    "0.7"
+  ],
+  "USP-S | Night Ops": [
+    "0.0",
+    "0.6"
+  ],
+  "USP-S | Orion": [
+    "0.0",
+    "0.5"
+  ],
+  "USP-S | Overgrowth": [
+    "0.06",
+    "0.8"
+  ],
+  "USP-S | Para Green": [
+    "0.0",
+    "0.8"
+  ],
+  "USP-S | Road Rash": [
+    "0.0",
+    "1.0"
+  ],
+  "USP-S | Royal Blue": [
+    "0.06",
+    "0.8"
+  ],
+  "USP-S | Serum": [
+    "0.0",
+    "0.25"
+  ],
+  "USP-S | Stainless": [
+    "0.0",
+    "0.8"
+  ],
+  "XM1014 | Black Tie": [
+    "0.0",
+    "0.75"
+  ],
+  "XM1014 | Blaze Orange": [
+    "0.06",
+    "0.8"
+  ],
+  "XM1014 | Blue Spruce": [
+    "0.06",
+    "0.8"
+  ],
+  "XM1014 | Blue Steel": [
+    "0.0",
+    "1.0"
+  ],
+  "XM1014 | Bone Machine": [
+    "0.0",
+    "0.6"
+  ],
+  "XM1014 | CaliCamo": [
+    "0.0",
+    "0.6"
+  ],
+  "XM1014 | Fallout Warning": [
+    "0.06",
+    "0.8"
+  ],
+  "XM1014 | Grassland": [
+    "0.06",
+    "0.8"
+  ],
+  "XM1014 | Heaven Guard": [
+    "0.03",
+    "0.5"
+  ],
+  "XM1014 | Jungle": [
+    "0.06",
+    "0.8"
+  ],
+  "XM1014 | Quicksilver": [
+    "0.0",
+    "0.5"
+  ],
+  "XM1014 | Red Leather": [
+    "0.0",
+    "0.56"
+  ],
+  "XM1014 | Red Python": [
+    "0.08",
+    "0.5"
+  ],
+  "XM1014 | Scumbria": [
+    "0.0",
+    "1.0"
+  ],
+  "XM1014 | Seasons": [
+    "0.0",
+    "0.5"
+  ],
+  "XM1014 | Slipstream": [
+    "0.0",
+    "0.5"
+  ],
+  "XM1014 | Teclu Burner": [
+    "0.0",
+    "0.65"
+  ],
+  "XM1014 | Tranquility": [
+    "0.0",
+    "0.5"
+  ],
+  "XM1014 | Urban Perforated": [
+    "0.06",
+    "0.8"
+  ],
+  "XM1014 | VariCamo Blue": [
+    "0.0",
+    "0.5"
+  ],
+  "XM1014 | Ziggy": [
+    "0.0",
+    "0.72"
+  ],
+  "AUG | Stymphalian": [
+    "0.0",
+    "0.63"
+  ],
+  "AWP | Mortis": [
+    "0.0",
+    "0.64"
+  ],
+  "Five-SeveN | Flame Test": [
+    "0.0",
+    "0.65"
+  ],
+  "Glock-18 | Moonrise": [
+    "0.0",
+    "0.65"
+  ],
+  "M4A4 | Neo-Noir": [
+    "0.0",
+    "0.9"
+  ],
+  "MAG-7 | SWAG-7": [
+    "0.0",
+    "0.92"
+  ],
+  "MP7 | Bloodsport": [
+    "0.0",
+    "0.65"
+  ],
+  "MP9 | Black Sand": [
+    "0.0",
+    "1.0"
+  ],
+  "Negev | Lionfish": [
+    "0.0",
+    "0.55"
+  ],
+  "Nova | Wild Six": [
+    "0.0",
+    "0.8"
+  ],
+  "P2000 | Urban Hazard": [
+    "0.0",
+    "1.0"
+  ],
+  "PP-Bizon | Night Riot": [
+    "0.0",
+    "0.8"
+  ],
+  "R8 Revolver | Grip": [
+    "0.0",
+    "1.0"
+  ],
+  "SG 553 | Aloha": [
+    "0.0",
+    "0.55"
+  ],
+  "UMP-45 | Arctic Wolf": [
+    "0.0",
+    "0.8"
+  ],
+  "USP-S | Cortex": [
+    "0.0",
+    "1.0"
+  ],
+  "XM1014 | Oxide Blaze": [
+    "0.0",
+    "0.7"
+  ],
+  "Tec-9 | Snek-9": [
+    "0.0",
+    "1.0"
+  ],
+  "Dual Berettas | Shred": [
+    "0.0",
+    "0.5"
+  ],
+  "MP9 | Capillary": [
+    "0.0",
+    "0.7"
+  ],
+  "Glock-18 | Warhawk": [
+    "0.0",
+    "1.0"
+  ],
+  "AUG | Amber Slipstream": [
+    "0.0",
+    "0.55"
+  ],
+  "P90 | Traction": [
+    "0.0",
+    "1.0"
+  ],
+  "R8 Revolver | Survivalist": [
+    "0.0",
+    "0.7"
+  ],
+  "AWP | PAW": [
+    "0.0",
+    "0.5"
+  ],
+  "CZ75-Auto | Eco": [
+    "0.0",
+    "1.0"
+  ],
+  "G3SG1 | High Seas": [
+    "0.0",
+    "0.7"
+  ],
+  "MP7 | Powercore": [
+    "0.0",
+    "0.8"
+  ],
+  "Nova | Toy Soldier": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A1-S | Nightmare": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Neon Rider": [
+    "0.0",
+    "0.8"
+  ],
+  "Desert Eagle | Code Red": [
+    "0.0",
+    "1.0"
+  ],
+  "FAMAS | Eye of Athena": [
+    "0.0",
+    "0.7"
+  ],
+  "Sawed-Off | Devourer": [
+    "0.0",
+    "0.8"
+  ],
+  "MAG-7 | Rust Coat": [
+    "0.0",
+    "1.0"
+  ],
+  "PP-Bizon | Facility Sketch": [
+    "0.0",
+    "0.5"
+  ],
+  "Five-SeveN | Coolant": [
+    "0.0",
+    "0.5"
+  ],
+  "MP9 | Slide": [
+    "0.06",
+    "0.8"
+  ],
+  "MP5-SD | Dirt Drop": [
+    "0.06",
+    "0.8"
+  ],
+  "R8 Revolver | Nitro": [
+    "0.06",
+    "0.8"
+  ],
+  "AUG | Sweeper": [
+    "0.0",
+    "0.6"
+  ],
+  "Negev | Bulkhead": [
+    "0.0",
+    "0.5"
+  ],
+  "UMP-45 | Facility Dark": [
+    "0.0",
+    "0.5"
+  ],
+  "MP5-SD | Co-Processor": [
+    "0.0",
+    "0.5"
+  ],
+  "M4A4 | Mainframe": [
+    "0.0",
+    "0.5"
+  ],
+  "P250 | Facility Draft": [
+    "0.0",
+    "0.5"
+  ],
+  "MP7 | Motherboard": [
+    "0.0",
+    "0.5"
+  ],
+  "UMP-45 | Mudder": [
+    "0.06",
+    "0.8"
+  ],
+  "PP-Bizon | Candy Apple": [
+    "0.0",
+    "0.3"
+  ],
+  "Glock-18 | High Beam": [
+    "0.0",
+    "0.08"
+  ],
+  "Nova | Mandrel": [
+    "0.0",
+    "0.5"
+  ],
+  "USP-S | Check Engine": [
+    "0.0",
+    "0.6"
+  ],
+  "Galil AR | Cold Fusion": [
+    "0.0",
+    "0.83"
+  ],
+  "MAC-10 | Calf Skin": [
+    "0.0",
+    "1.0"
+  ],
+  "AWP | Acheron": [
+    "0.0",
+    "0.83"
+  ],
+  "P250 | Exchanger": [
+    "0.0",
+    "0.5"
+  ],
+  "AK-47 | Safety Net": [
+    "0.0",
+    "0.6"
+  ],
+  "Glock-18 | Nuclear Garden": [
+    "0.0",
+    "0.7"
+  ],
+  "M4A1-S | Control Panel": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A4 | Converter": [
+    "0.0",
+    "0.4"
+  ],
+  "MP7 | Fade": [
+    "0.0",
+    "0.25"
+  ],
+  "P250 | Vino Primo": [
+    "0.0",
+    "1.0"
+  ],
+  "P90 | Facility Negative": [
+    "0.0",
+    "0.5"
+  ],
+  "SG 553 | Integrale": [
+    "0.0",
+    "1.0"
+  ],
+  "SSG 08 | Hand Brake": [
+    "0.0",
+    "1.0"
+  ],
+  "Sawed-Off | Brake Light": [
+    "0.0",
+    "0.08"
+  ],
+  "AUG | Random Access": [
+    "0.0",
+    "0.5"
+  ],
+  "Dual Berettas | Twin Turbo": [
+    "0.0",
+    "1.0"
+  ],
+  "MAG-7 | Core Breach": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Remote Control": [
+    "0.0",
+    "1.0"
+  ],
+  "P250 | Nevermore": [
+    "0.0",
+    "0.4"
+  ],
+  "AWP | Neo-Noir": [
+    "0.0",
+    "0.5"
+  ],
+  "Tec-9 | Fubar": [
+    "0.14",
+    "1.0"
+  ],
+  "Nova | Wood Fired": [
+    "0.0",
+    "0.75"
+  ],
+  "SG 553 | Danger Close": [
+    "0.02",
+    "0.8"
+  ],
+  "Glock-18 | Oxide Blaze": [
+    "0.0",
+    "0.85"
+  ],
+  "M4A4 | Magnesium": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Asiimov": [
+    "0.05",
+    "0.7"
+  ],
+  "Desert Eagle | Mecha Industries": [
+    "0.0",
+    "0.6"
+  ],
+  "USP-S | Flashback": [
+    "0.0",
+    "0.5"
+  ],
+  "Sawed-Off | Black Sand": [
+    "0.0",
+    "0.9"
+  ],
+  "MP5-SD | Phosphor": [
+    "0.0",
+    "0.8"
+  ],
+  "MP9 | Modest Threat": [
+    "0.0",
+    "0.75"
+  ],
+  "Galil AR | Signal": [
+    "0.0",
+    "0.5"
+  ],
+  "UMP-45 | Momentum": [
+    "0.0",
+    "0.5"
+  ],
+  "MAC-10 | Pipe Down": [
+    "0.0",
+    "0.9"
+  ],
+  "G3SG1 | Scavenger": [
+    "0.0",
+    "0.65"
+  ],
+  "AK-47 | Uncharted": [
+    "0.0",
+    "0.75"
+  ],
+  "AWP | Atheris": [
+    "0.0",
+    "1.0"
+  ],
+  "Galil AR | Akoben": [
+    "0.0",
+    "0.75"
+  ],
+  "MP7 | Mischief": [
+    "0.1",
+    "1.0"
+  ],
+  "XM1014 | Incinegator": [
+    "0.14",
+    "0.65"
+  ],
+  "UMP-45 | Moonrise": [
+    "0.0",
+    "0.4"
+  ],
+  "MAC-10 | Whitefish": [
+    "0.0",
+    "1.0"
+  ],
+  "AUG | Momentum": [
+    "0.05",
+    "1.0"
+  ],
+  "FAMAS | Crypsis": [
+    "0.0",
+    "0.55"
+  ],
+  "R8 Revolver | Skull Crusher": [
+    "0.25",
+    "0.8"
+  ],
+  "P90 | Off World": [
+    "0.0",
+    "0.75"
+  ],
+  "Five-SeveN | Angry Mob": [
+    "0.0",
+    "0.7"
+  ],
+  "P250 | Verdigris": [
+    "0.0",
+    "0.7"
+  ],
+  "Desert Eagle | Light Rail": [
+    "0.0",
+    "0.9"
+  ],
+  "Tec-9 | Bamboozle": [
+    "0.0",
+    "0.8"
+  ],
+  "MP5-SD | Gauss": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A4 | The Emperor": [
+    "0.0",
+    "0.8"
+  ],
+  "P250 | X-Ray": [
+    "0.0",
+    "0.3"
+  ],
+  "Tec-9 | Flash Out": [
+    "0.0",
+    "0.7"
+  ],
+  "MP5-SD | Agent": [
+    "0.0",
+    "1.0"
+  ],
+  "Five-SeveN | Buddy": [
+    "0.0",
+    "0.55"
+  ],
+  "Glock-18 | Sacrifice": [
+    "0.0",
+    "1.0"
+  ],
+  "FAMAS | Decommissioned": [
+    "0.0",
+    "1.0"
+  ],
+  "Dual Berettas | Elite 1.6": [
+    "0.0",
+    "0.7"
+  ],
+  "SCAR-20 | Assault": [
+    "0.0",
+    "0.62"
+  ],
+  "MAC-10 | Classic Crate": [
+    "0.0",
+    "1.0"
+  ],
+  "M249 | Aztec": [
+    "0.0",
+    "0.75"
+  ],
+  "MAG-7 | Popdog": [
+    "0.0",
+    "0.8"
+  ],
+  "UMP-45 | Plastique": [
+    "0.0",
+    "0.8"
+  ],
+  "MP9 | Hydra": [
+    "0.0",
+    "1.0"
+  ],
+  "AUG | Death by Puppy": [
+    "0.0",
+    "0.4"
+  ],
+  "P90 | Nostalgia": [
+    "0.0",
+    "0.57"
+  ],
+  "P250 | Inferno": [
+    "0.0",
+    "0.68"
+  ],
+  "FAMAS | Commemoration": [
+    "0.0",
+    "0.5"
+  ],
+  "AWP | Wildfire": [
+    "0.01",
+    "0.7"
+  ],
+  "Sawed-Off | Jungle Thicket": [
+    "0.0",
+    "0.5"
+  ],
+  "SG 553 | Candy Apple": [
+    "0.0",
+    "0.7"
+  ],
+  "SSG 08 | Red Stone": [
+    "0.06",
+    "0.5"
+  ],
+  "PP-Bizon | Seabird": [
+    "0.0",
+    "0.5"
+  ],
+  "SG 553 | Barricade": [
+    "0.0",
+    "0.65"
+  ],
+  "SCAR-20 | Stone Mosaico": [
+    "0.06",
+    "0.5"
+  ],
+  "P250 | Dark Filigree": [
+    "0.0",
+    "0.5"
+  ],
+  "MP7 | Scorched": [
+    "0.06",
+    "0.8"
+  ],
+  "FAMAS | Night Borre": [
+    "0.0",
+    "0.55"
+  ],
+  "Tec-9 | Rust Leaf": [
+    "0.0",
+    "0.5"
+  ],
+  "AUG | Navy Murano": [
+    "0.0",
+    "1.0"
+  ],
+  "CZ75-Auto | Indigo": [
+    "0.06",
+    "0.8"
+  ],
+  "MAC-10 | Surfwood": [
+    "0.0",
+    "0.5"
+  ],
+  "MP5-SD | Bamboo Garden": [
+    "0.0",
+    "0.55"
+  ],
+  "AWP | Containment Breach": [
+    "0.0",
+    "1.0"
+  ],
+  "Dual Berettas | Pyre": [
+    "0.06",
+    "0.55"
+  ],
+  "Nova | Plume": [
+    "0.0",
+    "0.8"
+  ],
+  "Dual Berettas | Balance": [
+    "0.0",
+    "1.0"
+  ],
+  "SCAR-20 | Torn": [
+    "0.0",
+    "0.45"
+  ],
+  "G3SG1 | Black Sand": [
+    "0.0",
+    "0.8"
+  ],
+  "M249 | Jungle": [
+    "0.06",
+    "0.8"
+  ],
+  "MP5-SD | Acid Wash": [
+    "0.0",
+    "0.68"
+  ],
+  "MAG-7 | Chainmail": [
+    "0.0",
+    "0.22"
+  ],
+  "XM1014 | Banana Leaf": [
+    "0.0",
+    "0.6"
+  ],
+  "Negev | Boroque Sand": [
+    "0.0",
+    "1.0"
+  ],
+  "R8 Revolver | Canal Spray": [
+    "0.06",
+    "0.6"
+  ],
+  "MP7 | Teal Blossom": [
+    "0.0",
+    "0.5"
+  ],
+  "AK-47 | Baroque Purple": [
+    "0.0",
+    "1.0"
+  ],
+  "P90 | Astral J\u00f6rmungandr": [
+    "0.0",
+    "0.5"
+  ],
+  "MAC-10 | Copper Borre": [
+    "0.0",
+    "0.5"
+  ],
+  "Galil AR | Tornado": [
+    "0.06",
+    "0.8"
+  ],
+  "M4A1-S | Moss Quartz": [
+    "0.0",
+    "0.5"
+  ],
+  "M4A4 | Dark Blossom": [
+    "0.0",
+    "0.5"
+  ],
+  "AUG | Midnight Lily": [
+    "0.0",
+    "0.5"
+  ],
+  "SG 553 | Colony IV": [
+    "0.0",
+    "1.0"
+  ],
+  "R8 Revolver | Memento": [
+    "0.0",
+    "0.8"
+  ],
+  "MP7 | Neon Ply": [
+    "0.0",
+    "1.0"
+  ],
+  "M249 | Warbird": [
+    "0.05",
+    "0.65"
+  ],
+  "SSG 08 | Orange Filigree": [
+    "0.0",
+    "0.5"
+  ],
+  "Nova | Baroque Orange": [
+    "0.0",
+    "0.5"
+  ],
+  "P2000 | Obsidian": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Decimator": [
+    "0.0",
+    "0.75"
+  ],
+  "SSG 08 | Sea Calico": [
+    "0.0",
+    "0.5"
+  ],
+  "CZ75-Auto | Emerald Quartz": [
+    "0.0",
+    "0.7"
+  ],
+  "USP-S | Pathfinder": [
+    "0.0",
+    "0.35"
+  ],
+  "UMP-45 | Day Lily": [
+    "0.0",
+    "0.55"
+  ],
+  "P90 | Baroque Red": [
+    "0.0",
+    "0.5"
+  ],
+  "AK-47 | Rat Rod": [
+    "0.0",
+    "1.0"
+  ],
+  "P90 | Sunset Lily": [
+    "0.0",
+    "0.5"
+  ],
+  "Tec-9 | Orange Murano": [
+    "0.0",
+    "1.0"
+  ],
+  "AUG | Arctic Wolf": [
+    "0.0",
+    "0.7"
+  ],
+  "SSG 08 | Bloodshot": [
+    "0.14",
+    "0.6"
+  ],
+  "Glock-18 | Synth Leaf": [
+    "0.0",
+    "0.7"
+  ],
+  "PP-Bizon | Embargo": [
+    "0.0",
+    "1.0"
+  ],
+  "Desert Eagle | Emerald J\u00f6rmungandr": [
+    "0.0",
+    "0.5"
+  ],
+  "FAMAS | Sundown": [
+    "0.0",
+    "0.6"
+  ],
+  "MAC-10 | Stalker": [
+    "0.0",
+    "1.0"
+  ],
+  "SCAR-20 | Brass": [
+    "0.0",
+    "1.0"
+  ],
+  "XM1014 | Frost Borre": [
+    "0.0",
+    "0.5"
+  ],
+  "G3SG1 | Violet Murano": [
+    "0.0",
+    "0.5"
+  ],
+  "Dual Berettas | Emerald": [
+    "0.0",
+    "0.08"
+  ],
+  "AUG | Flame J\u00f6rmungandr": [
+    "0.0",
+    "0.5"
+  ],
+  "Five-SeveN | Crimson Blossom": [
+    "0.0",
+    "0.5"
+  ],
+  "AWP | Gungnir": [
+    "0.0",
+    "0.6"
+  ],
+  "MP9 | Stained Glass": [
+    "0.0",
+    "0.5"
+  ],
+  "MAC-10 | Red Filigree": [
+    "0.0",
+    "0.5"
+  ],
+  "AWP | The Prince": [
+    "0.0",
+    "0.6"
+  ],
+  "MP9 | Wild Lily": [
+    "0.0",
+    "0.7"
+  ],
+  "Negev | Mj\u00f6lnir": [
+    "0.0",
+    "0.6"
+  ],
+  "MAG-7 | Cinquedea": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Wild Lotus": [
+    "0.0",
+    "1.0"
+  ],
+  "MP5-SD | Desert Strike": [
+    "0.0",
+    "1.0"
+  ],
+  "Desert Eagle | Blue Ply": [
+    "0.0",
+    "1.0"
+  ],
+  "CZ75-Auto | Distressed": [
+    "0.0",
+    "1.0"
+  ],
+  "MAG-7 | Justice": [
+    "0.0",
+    "1.0"
+  ],
+  "SG 553 | Darkwing": [
+    "0.0",
+    "1.0"
+  ],
+  "R8 Revolver | Bone Forged": [
+    "0.0",
+    "0.6"
+  ],
+  "Glock-18 | Bullet Queen": [
+    "0.0",
+    "1.0"
+  ],
+  "AUG | Tom Cat": [
+    "0.0",
+    "0.8"
+  ],
+  "MAC-10 | Disco Tech": [
+    "0.0",
+    "1.0"
+  ],
+  "SCAR-20 | Enforcer": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Phantom Disruptor": [
+    "0.0",
+    "0.65"
+  ],
+  "SSG 08 | Fever Dream": [
+    "0.0",
+    "0.72"
+  ],
+  "M4A1-S | Player Two": [
+    "0.0",
+    "0.84"
+  ],
+  "AWP | Capillary": [
+    "0.05",
+    "0.7"
+  ],
+  "Negev | Prototype": [
+    "0.0",
+    "0.7"
+  ],
+  "Sawed-Off | Apocalypto": [
+    "0.0",
+    "1.0"
+  ],
+  "P2000 | Acid Etched": [
+    "0.0",
+    "1.0"
+  ],
+  "P250 | Cassette": [
+    "0.0",
+    "0.6"
+  ],
+  "PP-Bizon | Runic": [
+    "0.0",
+    "1.0"
+  ],
+  "P90 | Freight": [
+    "0.0",
+    "1.0"
+  ],
+  "SG 553 | Ol' Rusty": [
+    "0.0",
+    "0.7"
+  ],
+  "P2000 | Gnarled": [
+    "0.0",
+    "1.0"
+  ],
+  "Glock-18 | Vogue": [
+    "0.0",
+    "0.75"
+  ],
+  "Negev | Ultralight": [
+    "0.0",
+    "0.79"
+  ],
+  "SSG 08 | Mainframe 001": [
+    "0.0",
+    "1.0"
+  ],
+  "MAC-10 | Allure": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A4 | Tooth Fairy": [
+    "0.0",
+    "0.73"
+  ],
+  "Tec-9 | Brother": [
+    "0.0",
+    "1.0"
+  ],
+  "MP5-SD | Kitbash": [
+    "0.0",
+    "0.8"
+  ],
+  "MAG-7 | Monster Call": [
+    "0.0",
+    "1.0"
+  ],
+  "Galil AR | Connexion": [
+    "0.0",
+    "0.8"
+  ],
+  "AK-47 | Legion of Anubis": [
+    "0.0",
+    "0.7"
+  ],
+  "Desert Eagle | Printstream": [
+    "0.0",
+    "0.8"
+  ],
+  "XM1014 | Entombed": [
+    "0.0",
+    "0.5"
+  ],
+  "Tec-9 | Phoenix Chalk": [
+    "0.0",
+    "0.8"
+  ],
+  "MP5-SD | Nitro": [
+    "0.06",
+    "0.8"
+  ],
+  "AUG | Surveillance": [
+    "0.0",
+    "0.6"
+  ],
+  "SSG 08 | Jungle Dashed": [
+    "0.06",
+    "0.8"
+  ],
+  "XM1014 | Charter": [
+    "0.0",
+    "0.65"
+  ],
+  "M249 | Predator": [
+    "0.06",
+    "0.8"
+  ],
+  "PP-Bizon | Death Rattle": [
+    "0.08",
+    "0.5"
+  ],
+  "P250 | Forest Night": [
+    "0.06",
+    "0.8"
+  ],
+  "MP9 | Army Sheen": [
+    "0.0",
+    "0.3"
+  ],
+  "CZ75-Auto | Jungle Dashed": [
+    "0.06",
+    "0.8"
+  ],
+  "SCAR-20 | Magna Carta": [
+    "0.0",
+    "0.6"
+  ],
+  "Desert Eagle | The Bronze": [
+    "0.0",
+    "0.3"
+  ],
+  "R8 Revolver | Night": [
+    "0.06",
+    "0.8"
+  ],
+  "MAG-7 | Carbon Fiber": [
+    "0.0",
+    "0.12"
+  ],
+  "Nova | Army Sheen": [
+    "0.0",
+    "0.3"
+  ],
+  "R8 Revolver | Phoenix Marker": [
+    "0.0",
+    "0.6"
+  ],
+  "Dual Berettas | Switch Board": [
+    "0.0",
+    "0.65"
+  ],
+  "Dual Berettas | Dezastre": [
+    "0.0",
+    "1.0"
+  ],
+  "MP5-SD | Condition Zero": [
+    "0.0",
+    "1.0"
+  ],
+  "P250 | Contaminant": [
+    "0.0",
+    "0.7"
+  ],
+  "P90 | Cocoa Rampage": [
+    "0.0",
+    "0.6"
+  ],
+  "P2000 | Dispatch": [
+    "0.0",
+    "0.65"
+  ],
+  "SG 553 | Lush Ruins": [
+    "0.0",
+    "0.7"
+  ],
+  "Galil AR | Vandal": [
+    "0.0",
+    "1.0"
+  ],
+  "SSG 08 | Parallax": [
+    "0.0",
+    "1.0"
+  ],
+  "G3SG1 | Digital Mesh": [
+    "0.0",
+    "0.8"
+  ],
+  "Dual Berettas | Heist": [
+    "0.0",
+    "0.7"
+  ],
+  "CZ75-Auto | Vendetta": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A4 | Global Offensive": [
+    "0.0",
+    "0.7"
+  ],
+  "AWP | Fade": [
+    "0.0",
+    "0.08"
+  ],
+  "SSG 08 | Threat Detected": [
+    "0.0",
+    "0.65"
+  ],
+  "UMP-45 | Gold Bismuth": [
+    "0.0",
+    "0.7"
+  ],
+  "P2000 | Panther Camo": [
+    "0.0",
+    "0.5"
+  ],
+  "P90 | Ancient Earth": [
+    "0.0",
+    "0.5"
+  ],
+  "CZ75-Auto | Silver": [
+    "0.0",
+    "0.08"
+  ],
+  "Nova | Clear Polymer": [
+    "0.0",
+    "1.0"
+  ],
+  "MP7 | Tall Grass": [
+    "0.0",
+    "0.65"
+  ],
+  "AUG | Carved Jade": [
+    "0.0",
+    "0.2"
+  ],
+  "Sawed-Off | Clay Ambush": [
+    "0.0",
+    "0.6"
+  ],
+  "MP7 | Vault Heist": [
+    "0.0",
+    "0.6"
+  ],
+  "UMP-45 | Houndstooth": [
+    "0.0",
+    "0.6"
+  ],
+  "M249 | Deep Relief": [
+    "0.0",
+    "1.0"
+  ],
+  "AWP | Exoskeleton": [
+    "0.0",
+    "1.0"
+  ],
+  "P250 | Bengal Tiger": [
+    "0.06",
+    "0.8"
+  ],
+  "Nova | Rust Coat": [
+    "0.0",
+    "0.8"
+  ],
+  "UMP-45 | Crime Scene": [
+    "0.0",
+    "0.75"
+  ],
+  "M4A1-S | Blue Phosphor": [
+    "0.0",
+    "0.08"
+  ],
+  "Five-SeveN | Berries And Cherries": [
+    "0.0",
+    "0.1"
+  ],
+  "Negev | Phoenix Stencil": [
+    "0.0",
+    "0.65"
+  ],
+  "FAMAS | Prime Conspiracy": [
+    "0.0",
+    "0.55"
+  ],
+  "G3SG1 | Ancient Ritual": [
+    "0.0",
+    "0.76"
+  ],
+  "M4A4 | Cyber Security": [
+    "0.0",
+    "0.98"
+  ],
+  "Five-SeveN | Fairy Tale": [
+    "0.02",
+    "0.9"
+  ],
+  "P90 | Tiger Pit": [
+    "0.0",
+    "0.5"
+  ],
+  "M4A1-S | Printstream": [
+    "0.0",
+    "0.8"
+  ],
+  "USP-S | Monster Mashup": [
+    "0.0",
+    "0.7"
+  ],
+  "Desert Eagle | Night Heist": [
+    "0.0",
+    "0.65"
+  ],
+  "Glock-18 | Franklin": [
+    "0.0",
+    "0.4"
+  ],
+  "Galil AR | Dusk Ruins": [
+    "0.0",
+    "0.6"
+  ],
+  "P90 | Run and Hide": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Blast From the Past": [
+    "0.0",
+    "0.65"
+  ],
+  "FAMAS | Dark Water": [
+    "0.1",
+    "0.26"
+  ],
+  "Galil AR | Phoenix Blacklight": [
+    "0.0",
+    "0.7"
+  ],
+  "USP-S | Target Acquired": [
+    "0.0",
+    "0.5"
+  ],
+  "Glock-18 | Neo-Noir": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | X-Ray": [
+    "0.0",
+    "1.0"
+  ],
+  "MAC-10 | Hot Snakes": [
+    "0.0",
+    "1.0"
+  ],
+  "AWP | Silk Tiger": [
+    "0.0",
+    "0.6"
+  ],
+  "SG 553 | Hypnotic": [
+    "0.0",
+    "0.08"
+  ],
+  "MAC-10 | Gold Brick": [
+    "0.0",
+    "0.7"
+  ],
+  "AK-47 | Panthera onca": [
+    "0.0",
+    "1.0"
+  ],
+  "USP-S | Ancient Visions": [
+    "0.0",
+    "0.45"
+  ],
+  "XM1014 | Ancient Lore": [
+    "0.0",
+    "0.5"
+  ],
+  "M4A1-S | Welcome to the Jungle": [
+    "0.0",
+    "1.0"
+  ],
+  "M249 | O.S.I.P.R.": [
+    "0.0",
+    "0.7"
+  ],
+  "USP-S | The Traitor": [
+    "0.0",
+    "1.0"
+  ],
+  "P250 | Cyber Shell": [
+    "0.0",
+    "0.85"
+  ],
+  "MP9 | Food Chain": [
+    "0.0",
+    "1.0"
+  ],
+  "Glock-18 | Clear Polymer": [
+    "0.0",
+    "1.0"
+  ],
+  "Nova | Windblown": [
+    "0.0",
+    "0.5"
+  ],
+  "Galil AR | Chromatic Aberration": [
+    "0.0",
+    "1.0"
+  ],
+  "CZ75-Auto | Circaetus": [
+    "0.0",
+    "0.9"
+  ],
+  "AK-47 | Slate": [
+    "0.0",
+    "1.0"
+  ],
+  "SG 553 | Heavy Metal": [
+    "0.0",
+    "1.0"
+  ],
+  "Negev | dev_texture": [
+    "0.0",
+    "0.65"
+  ],
+  "R8 Revolver | Junk Yard": [
+    "0.0",
+    "1.0"
+  ],
+  "XM1014 | XOXO": [
+    "0.0",
+    "0.9"
+  ],
+  "UMP-45 | Oscillator": [
+    "0.0",
+    "0.5"
+  ],
+  "Desert Eagle | Trigger Discipline": [
+    "0.0",
+    "0.97"
+  ],
+  "MAC-10 | Button Masher": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A4 | In Living Color": [
+    "0.0",
+    "0.79"
+  ],
+  "Desert Eagle | Sputnik": [
+    "0.0",
+    "0.5"
+  ],
+  "SSG 08 | Spring Twilly": [
+    "0.0",
+    "0.55"
+  ],
+  "Glock-18 | Gamma Doppler": [
+    "0.0",
+    "0.5"
+  ],
+  "Sawed-Off | Parched": [
+    "0.0",
+    "0.49"
+  ],
+  "P90 | Desert DDPAT": [
+    "0.0",
+    "0.5"
+  ],
+  "R8 Revolver | Desert Brush": [
+    "0.0",
+    "0.6"
+  ],
+  "M249 | Midnight Palm": [
+    "0.0",
+    "0.5"
+  ],
+  "MP9 | Old Roots": [
+    "0.0",
+    "0.5"
+  ],
+  "AUG | Spalted Wood": [
+    "0.0",
+    "0.48"
+  ],
+  "MP7 | Prey": [
+    "0.0",
+    "0.48"
+  ],
+  "MAC-10 | Sienna Damask": [
+    "0.0",
+    "0.6"
+  ],
+  "XM1014 | Blue Tire": [
+    "0.0",
+    "0.55"
+  ],
+  "SG 553 | Bleached": [
+    "0.0",
+    "0.5"
+  ],
+  "Five-SeveN | Withered Vine": [
+    "0.0",
+    "0.5"
+  ],
+  "P250 | Drought": [
+    "0.0",
+    "0.44"
+  ],
+  "PP-Bizon | Anolis": [
+    "0.0",
+    "0.5"
+  ],
+  "AUG | Amber Fade": [
+    "0.0",
+    "0.4"
+  ],
+  "M4A4 | Spider Lily": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Leet Museo": [
+    "0.0",
+    "0.65"
+  ],
+  "M4A4 | The Coalition": [
+    "0.0",
+    "1.0"
+  ],
+  "R8 Revolver | Blaze": [
+    "0.0",
+    "0.08"
+  ],
+  "SSG 08 | Prey": [
+    "0.0",
+    "0.48"
+  ],
+  "M4A1-S | Fizzy POP": [
+    "0.0",
+    "0.57"
+  ],
+  "CZ75-Auto | Syndicate": [
+    "0.0",
+    "0.7"
+  ],
+  "FAMAS | Faulty Wiring": [
+    "0.0",
+    "0.5"
+  ],
+  "CZ75-Auto | Midnight Palm": [
+    "0.0",
+    "0.5"
+  ],
+  "USP-S | Whiteout": [
+    "0.06",
+    "0.8"
+  ],
+  "MAG-7 | Navy Sheen": [
+    "0.0",
+    "0.55"
+  ],
+  "MAC-10 | Propaganda": [
+    "0.0",
+    "0.62"
+  ],
+  "AUG | Plague": [
+    "0.0",
+    "0.76"
+  ],
+  "AWP | POP AWP": [
+    "0.0",
+    "0.44"
+  ],
+  "Dual Berettas | Drift Wood": [
+    "0.0",
+    "0.6"
+  ],
+  "SG 553 | Desert Blossom": [
+    "0.0",
+    "0.49"
+  ],
+  "Galil AR | Amber Fade": [
+    "0.0",
+    "0.4"
+  ],
+  "G3SG1 | New Roots": [
+    "0.0",
+    "0.55"
+  ],
+  "AUG | Sand Storm": [
+    "0.0",
+    "0.5"
+  ],
+  "FAMAS | CaliCamo": [
+    "0.0",
+    "0.6"
+  ],
+  "UMP-45 | Mechanism": [
+    "0.0",
+    "0.49"
+  ],
+  "CZ75-Auto | Framework": [
+    "0.0",
+    "0.8"
+  ],
+  "P90 | Verdant Growth": [
+    "0.0",
+    "0.47"
+  ],
+  "Nova | Quick Sand": [
+    "0.0",
+    "0.5"
+  ],
+  "MP9 | Music Box": [
+    "0.0",
+    "0.55"
+  ],
+  "USP-S | Purple DDPAT": [
+    "0.0",
+    "0.55"
+  ],
+  "M249 | Humidor": [
+    "0.0",
+    "0.5"
+  ],
+  "MAC-10 | Case Hardened": [
+    "0.0",
+    "1.0"
+  ],
+  "PP-Bizon | Lumen": [
+    "0.0",
+    "0.77"
+  ],
+  "Dual Berettas | Tread": [
+    "0.0",
+    "1.0"
+  ],
+  "UMP-45 | Full Stop": [
+    "0.0",
+    "0.6"
+  ],
+  "Tec-9 | Safety Net": [
+    "0.0",
+    "0.6"
+  ],
+  "MP7 | Guerrilla": [
+    "0.0",
+    "1.0"
+  ],
+  "G3SG1 | Keeping Tabs": [
+    "0.0",
+    "0.7"
+  ],
+  "Negev | Infrastructure": [
+    "0.0",
+    "0.49"
+  ],
+  "Glock-18 | Red Tire": [
+    "0.0",
+    "0.55"
+  ],
+  "FAMAS | Meltdown": [
+    "0.0",
+    "0.4"
+  ],
+  "Nova | Interlock": [
+    "0.0",
+    "0.5"
+  ],
+  "USP-S | Black Lotus": [
+    "0.0",
+    "0.9"
+  ],
+  "Desert Eagle | Ocean Drive": [
+    "0.0",
+    "1.0"
+  ],
+  "MAC-10 | Toybox": [
+    "0.0",
+    "1.0"
+  ],
+  "XM1014 | Elegant Vines": [
+    "0.0",
+    "0.37"
+  ],
+  "MP5-SD | Autumn Twilly": [
+    "0.0",
+    "0.58"
+  ],
+  "Dual Berettas | Oil Change": [
+    "0.0",
+    "0.5"
+  ],
+  "MAC-10 | Strats": [
+    "0.0",
+    "0.6"
+  ],
+  "P250 | Black & Tan": [
+    "0.0",
+    "0.5"
+  ],
+  "MAG-7 | BI83 Spectrum": [
+    "0.0",
+    "0.6"
+  ],
+  "PP-Bizon | Breaker Box": [
+    "0.0",
+    "0.44"
+  ],
+  "Nova | Red Quartz": [
+    "0.0",
+    "0.4"
+  ],
+  "XM1014 | Watchdog": [
+    "0.0",
+    "1.0"
+  ],
+  "Glock-18 | Pink DDPAT": [
+    "0.06",
+    "0.8"
+  ],
+  "Five-SeveN | Boost Protocol": [
+    "0.0",
+    "0.41"
+  ],
+  "SSG 08 | Turbo Peek": [
+    "0.0",
+    "0.6"
+  ],
+  "FAMAS | ZX Spectron": [
+    "0.0",
+    "1.0"
+  ],
+  "MP9 | Mount Fuji": [
+    "0.0",
+    "0.55"
+  ],
+  "MP5-SD | Oxide Oasis": [
+    "0.0",
+    "0.55"
+  ],
+  "USP-S | Orange Anolis": [
+    "0.0",
+    "0.37"
+  ],
+  "M4A4 | Red DDPAT": [
+    "0.0",
+    "0.5"
+  ],
+  "SSG 08 | Death Strike": [
+    "0.0",
+    "0.8"
+  ],
+  "Glock-18 | Snack Attack": [
+    "0.0",
+    "1.0"
+  ],
+  "AWP | Desert Hydra": [
+    "0.0",
+    "0.6"
+  ],
+  "SSG 08 | Carbon Fiber": [
+    "0.0",
+    "0.12"
+  ],
+  "UMP-45 | Fade": [
+    "0.0",
+    "0.08"
+  ],
+  "Desert Eagle | Fennec Fox": [
+    "0.0",
+    "0.8"
+  ],
+  "MAG-7 | Prism Terrace": [
+    "0.0",
+    "0.37"
+  ],
+  "P2000 | Space Race": [
+    "0.0",
+    "0.6"
+  ],
+  "AK-47 | Green Laminate": [
+    "0.02",
+    "0.4"
+  ],
+  "AK-47 | Gold Arabesque": [
+    "0.0",
+    "0.7"
+  ],
+  "P90 | Schematic": [
+    "0.0",
+    "0.5"
+  ],
+  "P250 | Digital Architect": [
+    "0.0",
+    "0.49"
+  ],
+  "SG 553 | Hazard Pay": [
+    "0.0",
+    "0.48"
+  ],
+  "Five-SeveN | Fall Hazard": [
+    "0.01",
+    "0.52"
+  ],
+  "Galil AR | CAUTION!": [
+    "0.0",
+    "0.55"
+  ],
+  "M4A1-S | Imminent Danger": [
+    "0.0",
+    "0.8"
+  ],
+  "MAC-10 | Ensnared": [
+    "0.0",
+    "0.9"
+  ],
+  "MP5-SD | Necro Jr.": [
+    "0.0",
+    "1.0"
+  ],
+  "MP7 | Abyssal Apparition": [
+    "0.0",
+    "1.0"
+  ],
+  "MAG-7 | Foresight": [
+    "0.0",
+    "0.7"
+  ],
+  "Five-SeveN | Scrawl": [
+    "0.0",
+    "1.0"
+  ],
+  "SCAR-20 | Poultrygeist": [
+    "0.0",
+    "0.57"
+  ],
+  "P2000 | Lifted Spirits": [
+    "0.0",
+    "1.0"
+  ],
+  "Sawed-Off | Spirit Board": [
+    "0.0",
+    "1.0"
+  ],
+  "G3SG1 | Dream Glade": [
+    "0.0",
+    "1.0"
+  ],
+  "FAMAS | Rapid Eye Movement": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A1-S | Night Terror": [
+    "0.0",
+    "0.7"
+  ],
+  "USP-S | Ticket to Hell": [
+    "0.0",
+    "0.76"
+  ],
+  "XM1014 | Zombie Offensive": [
+    "0.0",
+    "0.5"
+  ],
+  "MP9 | Starlight Protector": [
+    "0.0",
+    "0.8"
+  ],
+  "PP-Bizon | Space Cat": [
+    "0.0",
+    "0.67"
+  ],
+  "Dual Berettas | Melondrama": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Nightwish": [
+    "0.0",
+    "1.0"
+  ],
+  "M249 | Downtown": [
+    "0.0",
+    "0.65"
+  ],
+  "MAC-10 | Monkeyflage": [
+    "0.0",
+    "1.0"
+  ],
+  "FAMAS | Meow 36": [
+    "0.0",
+    "1.0"
+  ],
+  "P90 | Vent Rush": [
+    "0.0",
+    "0.7"
+  ],
+  "Galil AR | Destroyer": [
+    "0.0",
+    "0.7"
+  ],
+  "UMP-45 | Roadblock": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Ice Coaled": [
+    "0.0",
+    "0.77"
+  ],
+  "Dual Berettas | Flora Carnivora": [
+    "0.0",
+    "1.0"
+  ],
+  "Sawed-Off | Kiss\u2665Love": [
+    "0.0",
+    "1.00"
+  ],
+  "Negev | Drop Me": [
+    "0.0",
+    "1.0"
+  ],
+  "P250 | Visions": [
+    "0.0",
+    "0.7"
+  ],
+  "Glock-18 | Winterized": [
+    "0.0",
+    "1.0"
+  ],
+  "USP-S | Printstream": [
+    "0.0",
+    "0.85"
+  ],
+  "R8 Revolver | Crazy 8": [
+    "0.0",
+    "1.0"
+  ],
+  "SG 553 | Dragon Tech": [
+    "0.0",
+    "0.7"
+  ],
+  "M4A4 | Poly Mag": [
+    "0.0",
+    "1.0"
+  ],
+  "AWP | Chromatic Aberration": [
+    "0.0",
+    "0.7"
+  ],
+  "SCAR-20 | Fragments": [
+    "0.0",
+    "0.78"
+  ],
+  "P90 | Neoqueen": [
+    "0.0",
+    "0.6"
+  ],
+  "P250 | Re.built": [
+    "0.0",
+    "0.9"
+  ],
+  "MP9 | Featherweight": [
+    "0.0",
+    "1.0"
+  ],
+  "MAG-7 | Insomnia": [
+    "0.0",
+    "1.0"
+  ],
+  "R8 Revolver | Banana Cannon": [
+    "0.0",
+    "1.0"
+  ],
+  "MAC-10 | Sakkaku": [
+    "0.21",
+    "0.79"
+  ],
+  "MP5-SD | Liquidation": [
+    "0.0",
+    "1.0"
+  ],
+  "Tec-9 | Rebel": [
+    "0.0",
+    "1.0"
+  ],
+  "SG 553 | Cyberforce": [
+    "0.0",
+    "0.9"
+  ],
+  "AK-47 | Head Shot": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A1-S | Emphorosaur-S": [
+    "0.0",
+    "0.8"
+  ],
+  "P2000 | Wicked Sick": [
+    "0.0",
+    "1.0"
+  ],
+  "Glock-18 | Umbral Rabbit": [
+    "0.0",
+    "0.75"
+  ],
+  "UMP-45 | Wild Child": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A4 | Temukau": [
+    "0.0",
+    "0.8"
+  ],
+  "AWP | Duality": [
+    "0.0",
+    "0.7"
+  ],
+  "MAC-10 | Echoing Sands": [
+    "0.02",
+    "0.8"
+  ],
+  "M249 | Submerged": [
+    "0.02",
+    "0.8"
+  ],
+  "P250 | Apep's Curse": [
+    "0.0",
+    "1.0"
+  ],
+  "MP7 | Sunbaked": [
+    "0.0",
+    "1.0"
+  ],
+  "SSG 08 | Azure Glyph": [
+    "0.01",
+    "0.99"
+  ],
+  "M4A1-S | Mud-Spec": [
+    "0.0",
+    "0.73"
+  ],
+  "R8 Revolver | Inlay": [
+    "0.0",
+    "0.76"
+  ],
+  "XM1014 | Hieroglyph": [
+    "0.0",
+    "1.0"
+  ],
+  "AUG | Snake Pit": [
+    "0.0",
+    "0.55"
+  ],
+  "MAG-7 | Copper Coated": [
+    "0.0",
+    "1.0"
+  ],
+  "AWP | Black Nile": [
+    "0.0",
+    "0.75"
+  ],
+  "USP-S | Desert Tactical": [
+    "0.0",
+    "1.0"
+  ],
+  "AK-47 | Steel Delta": [
+    "0.0",
+    "0.73"
+  ],
+  "Tec-9 | Mummy's Rot": [
+    "0.0",
+    "1.0"
+  ],
+  "Nova | Sobek's Bite": [
+    "0.0",
+    "1.0"
+  ],
+  "Glock-18 | Ramese's Reach": [
+    "0.0",
+    "1.0"
+  ],
+  "P90 | ScaraB Rush": [
+    "0.0",
+    "1.0"
+  ],
+  "M4A4 | Eye of Horus": [
+    "0.0",
+    "0.7"
+  ],
+  "FAMAS | Waters of Nephthys": [
+    "0.0",
+    "0.7"
+  ],
+  "M4A4 | 龍王 (Dragon King)": [
+    "0.0",
+    "0.75"
+  ]
+}
