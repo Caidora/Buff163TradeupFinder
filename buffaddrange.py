@@ -1,7 +1,7 @@
 import json
 ranges = []
 names = []
-with open("buffskinrange.txt", encoding="utf8") as f:
+with open("txt/buffskinrange.txt", encoding="utf8") as f:
     lines = f.readlines()
     for line in lines:
         curline = line.strip().split(',')
@@ -15,7 +15,7 @@ with open("buffskinrange.txt", encoding="utf8") as f:
         names.append(name)
 
 
-with open("buffids.txt", encoding="utf8") as f:
+with open("txt/buffids.txt", encoding="utf8") as f:
     lines = f.readlines()
     dic = {}
     for line in lines:
@@ -29,7 +29,7 @@ with open("buffids.txt", encoding="utf8") as f:
 
             #print(names[names.index(curline[1].split('(')[0].strip())],curline[0])
 
-with open("ranges.json", "w") as outfile:
+with open("json/ranges.json", "w") as outfile:
     # json_data refers to the above JSON
     json.dump(dic, outfile)
 

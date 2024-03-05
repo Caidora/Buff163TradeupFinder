@@ -1,7 +1,7 @@
 import json
 
 def get_weapons_from_coll(coll, grade):
-    with open('collections.json') as f:
+    with open('json/collections.json') as f:
        collections = json.load(f)
     return collections[coll][grade]
 

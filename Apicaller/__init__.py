@@ -13,6 +13,6 @@ if getattr(sys, 'frozen', False):
 else:
     base_path = pathlib.Path(os.path.abspath(__file__)).parent.parent
 
-config_path = os.path.join(base_path, 'config.json')
+config_path = os.path.join(base_path, 'json/config.json')
 print(config_path)
 config = json.load(open(config_path))

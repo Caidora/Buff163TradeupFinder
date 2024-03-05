@@ -25,18 +25,18 @@ class Buff:
         self.request_interval = request_interval
         self.request_locks = {}  # {url: [asyncio.Lock, last_request_time]}
         self.headers = request_kwargs['headers']
-        self.cookies = request_kwargs['Cookie']
+        self.cookies = None
         self.request_ids = goods_ids
         self.game = game
         self.game_appid = game_appid
         self.client = httpx.Client(
-            base_url=self.base_url, headers=self.headers, cookies=self.cookies)
+            base_url=self.base_url, headers=self.headers)
 
     def request(self, params) -> dict:
 
         response = self.client.get(
             self.web_sell_order, params=params, timeout=10)
-
+        print(response.status_code)
         if response.json()['code'] != 'OK':
             print("oh shit something went wrong")
             raise BuffError(response.json())
@@ -53,7 +53,7 @@ class Buff:
                 'game': self.game,
                 'goods_id': id,
                 'page_num': 1,
-                'page_size': 500,
+                'page_size': 100,
                 "_": {epochTimestamp()}
             })
             outputs.append(response)
@@ -62,14 +62,15 @@ class Buff:
             time.sleep(random.randint(5, 15))
 
             item_count = response['total_count']
-            more_pages = item_count // 500 - 1
+            more_pages = item_count // 100 - 1
+            more_pages = 0
             for i in range(more_pages):
                 print("making request for {}, page: {}".format(id,i+2))
                 response = self.request(params={
                     'game': self.game,
                     'goods_id': id,
                     'page_num': i+2,
-                    'page_size': 500,
+                    'page_size': 100,
                     "_": {epochTimestamp()}
                 })
                 outputs.append(response)

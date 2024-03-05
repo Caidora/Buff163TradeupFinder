@@ -5,7 +5,7 @@ from get_weapons_from_coll import get_weapons_from_coll
 
 import json
 
-with open('ranges.json', encoding='utf-8') as f:
+with open('json/ranges.json', encoding='utf-8') as f:
    dic = json.load(f)
 
 weapon_grades = ['Consumer','Industrial','Mil-Spec','Restricted','Classified','Covert']

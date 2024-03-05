@@ -6,7 +6,7 @@ def getNames():
     with open("currentids.txt") as f:
         ids = f.readlines()
     names = []
-    with open("buffids.txt") as f:
+    with open("txt/buffids.txt") as f:
         lines = f.readlines()
         for line in lines:
             curline = line.strip().split(';')

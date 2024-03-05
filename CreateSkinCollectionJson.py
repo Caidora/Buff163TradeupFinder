@@ -35,7 +35,7 @@ with open("Skins_collections.csv", encoding="utf8") as f:
 
         collections[collection] = cur_collection
 
-    with open("collections.json", "w") as outfile:
+    with open("json/collections.json", "w") as outfile:
         # json_data refers to the above JSON
         json.dump(collections, outfile)
 

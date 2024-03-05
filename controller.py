@@ -1,7 +1,7 @@
 from scraper import *
 from removeChoices import removeChoices
 
-def main_controller(collection, grade, remove, statty = False):
+def main_controller(collection, grade, remove, floatTarget, statty = False):
     weapon_grades = ['Consumer', 'Industrial', 'Mil-Spec', 'Restricted', 'Classified', 'Covert']
 
 
@@ -12,10 +12,11 @@ def main_controller(collection, grade, remove, statty = False):
         going_for.remove(j)
 
     for i in going_for:
-        temp = calculate_float(i, 0.07)
+        temp = calculate_float(i, floatTarget)
+
         if temp < desired:
             desired = temp
-    print(desired)
+    print(f"Desired average float of inputs: {desired}")
     results, links = scrape(collection, grade, desired, statty=statty)
     ev = ev_calc(results['x_sum'], results['y_mean'], collection, grade, statty=statty)
     return results
@@ -37,14 +38,15 @@ def another_output(collection, grade, new_float, statty=False, last_output=[]):
 
 
 
-collection = "CS20 Case"
-grade = "Classified"
-remove = [] #remove outcomes from float calculation
+collection = "Prisma Case" 
+grade = "Restricted"
+#REMOVE MUST BE FILLED IN WITH OUTCOMES THAT ARE UNABLE TO BE ACHIEVED AT TARGET FLOAT.
+remove = ['XM1014 | Incinegator','R8 Revolver | Skull Crusher'] #remove outcomes from float calculation 
 statty = False
+floatTarget = 0.07 #Factory New
+main_controller(collection, grade, remove, floatTarget,statty=statty)
 
-main_controller(collection, grade, remove, statty=statty)
-
-new_float = 0.202
+#new_float = 0.202
 
 #adjust_controller(collection, grade, new_float, statty=statty)
 

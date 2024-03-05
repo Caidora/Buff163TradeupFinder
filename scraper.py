@@ -38,6 +38,8 @@ def scrape(collection, grade, desiredFloat, statty=False):
 
     for weapon in weapons:
         ids.append(findIds(weapon, desiredFloat, statty=statty))
+
+        
     with open("currentids.txt", "w") as f:
         for id in ids:
             for i in id:

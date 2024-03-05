@@ -1,6 +1,6 @@
 def findIds(toFind, desiredFloat, booleanval = 'Normal', statty = False): #boolean to just get fac new etc()
 
-    csv_filename = 'buffids.txt'
+    csv_filename = 'txt/buffids.txt'
     ids = []
     conditions = []
 
