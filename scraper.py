@@ -6,16 +6,14 @@ import re
 import os
 import pickle
 import sys
-from findIds import findIds
-from calculateBest import calculateBest
-from Apicaller.retrieveJson import Buff
-from Apicaller import config
-from Readjson import readJson
-from getFloats import getFloats
-from get_weapons_from_coll import get_weapons_from_coll
-from calc_ev import ev_calc
-from calc_float import calculate_float
+
+
+
 import asyncio
+
+from helpers import readJson, getFloats, getWeaponsFromCollection, findIds, calculateBest, Buff, config, Apicaller
+
+
 # The notifier function
 
 
@@ -28,7 +26,7 @@ def notify(title, text):
 def scrape(collection, grade, desiredFloat, statty=False):
     ids = []
 
-    weapons = get_weapons_from_coll(collection, grade)
+    weapons = getWeaponsFromCollection(collection, grade)
 
     #remove items not working
     remove = []

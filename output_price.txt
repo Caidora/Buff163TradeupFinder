@@ -1,3 +1,0 @@
-['R8 Revolver | Skull Crusher', 'AUG | Momentum', 'XM1014 | Incinegator']
-[10.26, 126.44, 10.0]
-Stat =False
