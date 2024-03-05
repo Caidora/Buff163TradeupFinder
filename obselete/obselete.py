@@ -7,8 +7,7 @@ import os
 import pickle
 import sys
 
-from Apicaller.retrieveJson import Buff
-from Apicaller import config
+
 import asyncio
 # The notifier function
 
