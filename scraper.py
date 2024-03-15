@@ -15,7 +15,7 @@ from helpers import readJson, getFloats, getWeaponsFromCollection, findIds, calc
 
 
 # The notifier function
-
+ 
 
 def notify(title, text):
     os.system("""
@@ -62,12 +62,6 @@ def scrape(collection, grade, desiredFloat, statty=False):
     skins = getFloats(results['choices'])
     return results, skins
 
-
-if len(sys.argv) != 4:
-    print('Please enter the correct number of arguments')
-    pass
-else:
-    scrape(int(sys.argv[1]), int(sys.argv[2]), float(sys.argv[3]))
 
 # Note: if you want an example of a function run, uncomment this:
 
