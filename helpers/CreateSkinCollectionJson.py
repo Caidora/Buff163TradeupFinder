@@ -16,7 +16,7 @@ def create_new_collection(outputs,  collection_name):
 
 
 
-with open("Skins_collections.csv", encoding="utf8") as f:
+with open("helpers/csv/Skins_collections.csv", encoding="utf8") as f:
     lines = f.readlines()
     collections = {}
     for line in lines:
@@ -35,7 +35,7 @@ with open("Skins_collections.csv", encoding="utf8") as f:
 
         collections[collection] = cur_collection
 
-    with open("json/collections.json", "w") as outfile:
+    with open("helpers/json/collections.json", "w") as outfile:
         # json_data refers to the above JSON
         json.dump(collections, outfile)
 

@@ -3,7 +3,7 @@ import csv
 
 
 def removeChoices(choices):
-    csv_filename = "output.csv"
+    csv_filename = "helpers/output.csv"
 
     with open(csv_filename, "r") as f:
         lines = f.readlines()
@@ -15,7 +15,7 @@ def removeChoices(choices):
 
             row = row+1
 
-    f = open('output.csv', 'w', newline='')
+    f = open('helpers/output.csv', 'w', newline='')
     writer = csv.writer(f)
     for line in newOutput:
         curline = line.strip().split(',')
