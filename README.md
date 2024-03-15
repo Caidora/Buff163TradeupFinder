@@ -5,7 +5,7 @@ Buff163TradeupFinder provides functionality that helps in finding profitable tra
 
 ## Installation
 
-Clone the repository and then use the example calls under ##usage or in exampleCall.py
+Clone the repository and then use the example calls under Usage or in exampleCall.py
 
 ```bash
 git clone https://github.com/Caidora/Buff163TradeupFinder
