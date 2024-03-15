@@ -5,13 +5,19 @@ Buff163TradeupFinder provides functionality that helps in finding profitable tra
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Clone the repository and then use the example calls under ##usage or in exampleCall.py
 
 ```bash
 git clone https://github.com/Caidora/Buff163TradeupFinder
 ```
 
 ## Usage
+
+
+Before you can use the webscrape tool you must first log into Buff163 and then copy and paste your cookies into helpers\json\config.json
+Without doing this Buff163 will never show you more than 10 of each item. 
+
+
 
 ```python
 from controller import main_controller, adjust_controller, another_output

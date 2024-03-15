@@ -17,10 +17,10 @@ new_float = 0.202
 
 #adjust_controller is identical to main_controller but assumes buff has already been scraped and data in output.csv is correct
 
-#adjust_controller(collection, grade, new_float, statty=statty)
+adjust_controller(collection, grade, new_float, statty=statty)
 
 
 #Performs the same as adjust_controller except it allows you to remove items if you have bought them.
 
-#last_output = [ 227,  241,  268,  529,  967,  988, 1321, 1338, 2776, 2826]
-#another_output(collection, grade, floatTarget, statty, last_output=last_output) 
+last_output = [ 227,  241,  268,  529,  967,  988, 1321, 1338, 2776, 2826]
+another_output(collection, grade, floatTarget, statty, last_output=last_output) 
